@@ -1,0 +1,10 @@
+<button
+  [class]="['btn', 'btn-' + color, 'btn-' + size, btnClass]"
+  [type]="type"
+  [disabled]="disabled"
+  (click)="onClick()">
+  @if (icon) {
+    <i [class]="'pi ' + icon" [ngClass]="{'icon-left ml-3' : iconPosition === 'right', 'mr-3' : iconPosition === 'left'}"></i>
+  }
+  {{ label }}
+</button>

@@ -1,0 +1,60 @@
+<div class="input-group flex flex-column"
+     [ngClass]="{'pb-6' : type === 'range', 'has-error': formControl?.invalid && formControl?.['touched']}">
+  @if (label) {
+    <label [for]="inputId" class="mb-2">{{ label }}
+      @if (required) {
+        <span class="required">*</span>
+      }
+    </label>
+  }
+
+  @if (type !== 'textarea' && type !== 'range') {
+    <input
+      [id]="inputId"
+      [type]="type"
+      [formControl]="formControl"
+      [placeholder]="placeholder"
+      [disabled]="disabled"
+      (blur)="onTouched()"
+      class="px-4 py-3 j-input"
+    />
+  } @else if (type === 'textarea') {
+    <textarea
+      [id]="inputId"
+      [formControl]="formControl"
+      [placeholder]="placeholder"
+      [disabled]="disabled"
+      (blur)="onTouched()"
+      class="px-4 py-3 j-textarea"
+      rows="4"
+      cols="50"
+    ></textarea>
+  } @else if (type === 'range') {
+    <div class="j-slider-container">
+      <input type="range" min="20" max="500" step="20" [formControl]="formControl" class="j-range"
+             (input)="updateTooltip($event)" #jSlider>
+      @if (!isEditing) {
+        <div class="j-range-tooltip" [style.left.px]="tooltipPosition" #jTooltip>
+          {{ control?.value }}
+        </div>
+      } @else {
+        <input
+          [style.left.px]="tooltipPosition"
+          type="number"
+          min="20"
+          max="500"
+          [value]="value"
+          (blur)="disableEditing($event)"
+          (keydown.enter)="disableEditing($event)"
+          class="j-tooltip-input">
+      }
+
+    </div>
+  }
+  <!--  @if (formControl?.invalid && formControl?.['touched']) {-->
+  <!--    <p class="error-text">-->
+  <!--      {{ getErrorMessage() }}-->
+  <!--    </p>-->
+  <!--  }-->
+
+</div>

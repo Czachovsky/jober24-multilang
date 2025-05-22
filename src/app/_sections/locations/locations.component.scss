@@ -1,0 +1,52 @@
+@use '../../../assets/layout/scss/mixins';
+
+section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.locations_graph {
+  min-height: 525px;
+  background: url("../../../assets/images/map.webp") no-repeat scroll center / 100%;
+  @include mixins.lower-than('lg') {
+    max-height: 600px;
+    min-height: unset;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .mobile-map {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      margin-left: -29%;
+    }
+  }
+
+  .locations_wrapper {
+    border: 1px solid var(--black-100);
+    border-radius: 1rem;
+    background: var(--background-color);
+    box-shadow: 0 28px 20px 0 rgba(0, 0, 0, 0.15);
+    @include mixins.lower-than('lg') {
+      box-shadow: none;
+      width: 100%;
+    }
+
+    .location {
+      font-weight: 700;
+      @include mixins.fontSize(16);
+    }
+  }
+}
+
+.counters {
+  gap: 24px;
+  @include mixins.lower-than('lg') {
+    flex-direction: column;
+  }
+  & > div {
+    flex: 1;
+  }
+
+}

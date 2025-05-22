@@ -1,0 +1,43 @@
+@use '../../../assets/layout/scss/mixins';
+@use "../../../assets/layout/scss/variables";
+
+.btn {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--red-500);
+  border-radius: 8px;
+  color: var(--button-color);
+  font-weight: 700;
+  background: var(--red-500);
+  line-height: 1rem;
+  transition: all variables.$transitionDuration ease;
+
+  &:hover {
+    background: var(--red-400);
+  }
+
+  &.btn {
+    &-small {
+      @include mixins.fontSize(14);
+      @include mixins.padding(8, 16);
+    }
+
+    &-medium {
+      @include mixins.fontSize(14);
+      @include mixins.padding(12, 24);
+    }
+
+    &-large {
+      @include mixins.fontSize(16);
+      @include mixins.padding(16, 24);
+      line-height: 24px;
+    }
+  }
+
+}
+
+.icon-left {
+  order: 1;
+}

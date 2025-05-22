@@ -1,0 +1,31 @@
+<section class="py-120" id="why-us">
+  <div class="sm_container" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
+    <h2 class="text-center lg:pb-7 pb-5">Dlaczego warto nam zaufać?</h2>
+    <div class="why-us-container flex flex-column relative">
+      @for (whyUs of whyUsObject; let i = $index; track i; let last = $last) {
+        <div class="relative flex align-items-top">
+          @if (whyUs.icon) {
+            <span class="why-us-icon" [innerHTML]="whyUs.icon  | sanitize: 'html'"></span>
+          }
+          <div class="lg:col-5 col-12 pt-0 why-us-wrapper lg:pl-0 pl-7" [ngClass]="{'pb-6' : !last, 'pb-0' : last}">
+            <div class="why-us-label pb-2">{{ whyUs.label }}</div>
+            <div class="why-us-description">{{ whyUs.description }}</div>
+          </div>
+        </div>
+      }
+    </div>
+    <div class="spcer lg:py-7 py-5">
+      <div></div>
+    </div>
+    <div class="why-us-bottom-text">
+      <h4 class="text-center pb-2">Nie zostawiaj budowy zespołu <br class="lg:hidden inline-block"> przypadkowi.</h4>
+      <div class="text-center pb-5"> Skontaktuj się z nami i stwórz silny, <br class="lg:hidden inline-block"> wydajny i dobrze <br class="lg:inline-block hidden"> funkcjonujący <br class="lg:hidden inline-block"> zespół
+        już dziś!
+      </div>
+      <div class="flex justify-content-center">
+        <j-button [size]="'large'" [label]="'Skontaktuj się z nami'" [icon]="'pi-arrow-circle-right'"
+                  [iconPosition]="'right'" (clicked)="goToSection()"></j-button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,87 @@
+@use '../../../assets/layout/scss/mixins';
+
+:host ::ng-deep {
+  .owl-stage {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+    @include mixins.lower-than('lg') {
+      gap:unset;
+    }
+  }
+  .owl-item{
+    padding: 0 16px;
+  }
+}
+section{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+h2 {
+  @include mixins.fontSize(48);
+  font-weight: 700;
+  @include mixins.lower-than('lg') {
+    @include mixins.fontSize(32);
+    line-height: 40px;
+  }
+}
+
+.description {
+  color: var(--red-500);
+  @include mixins.fontSize(20);
+  font-weight: 700;
+  @include mixins.lower-than('lg') {
+    @include mixins.fontSize(20);
+    line-height: 32px;
+  }
+}
+
+.testimonals-wrapper {
+  margin: 0 -50%;
+  @include mixins.lower-than('lg') {
+    margin: 0;
+    //padding-left: 1.5rem !important;
+    //padding-right: 1.5rem !important;
+  }
+  .testimonial {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid var(--black-100);
+    text-align: center;
+    height: 100%;
+
+    .stars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .opinion {
+      @include mixins.fontSize(16);
+      line-height: 24px;
+
+      div {
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .person {
+      line-height: 24px;
+
+      div {
+        @include mixins.fontSize(14);
+        font-weight: 400;
+      }
+
+      span {
+        @include mixins.fontSize(16);
+        font-weight: 700;
+      }
+    }
+  }
+}

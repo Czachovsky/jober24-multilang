@@ -1,0 +1,20 @@
+<div>
+  <div class="menu-wrapper" [ngClass]="{'showIt' : showMobileMenuState}">
+    @if (menuElements.length) {
+      <ul class="flex">
+        @for (menu of menuElements; let i = $index; track i) {
+          <li class="flex ml-6">
+            <a class="menu_element" href="#" (click)="goTo(menu.href)">{{ menu.label }}</a>
+          </li>
+        }
+      </ul>
+    }
+  </div>
+  <div class="mobileHamburger" (click)="showMobileMenu()" [ngClass]="{'active': showMobileMenuActive}">
+    <div class="hamburgerBox">
+      <div class="hamburgerInner">
+      </div>
+    </div>
+  </div>
+
+</div>

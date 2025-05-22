@@ -1,0 +1,59 @@
+@use '../../../assets/layout/scss/mixins';
+
+section {
+  background: var(--black-50);
+  padding-bottom: 70px;
+  @include mixins.lower-than('lg') {
+    padding-top: 64px
+  }
+
+  .container {
+    top: -40px;
+    @include mixins.lower-than('lg') {
+      top: 0;
+    }
+  }
+}
+
+.features {
+  gap: 24px;
+
+  .feature {
+    border-radius: 24px;
+    box-shadow: 0 28px 20px 0 rgba(0, 0, 0, 0.15);
+    min-height: 294px;
+    background: rgba(0, 0, 0, 0.80);
+    overflow: hidden;
+    @include mixins.lower-than('lg') {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+    }
+    &.automotive {
+      background: url("../../../assets/images/automotive.webp") no-repeat center / cover;
+    }
+
+    &.ecommerce {
+      background: url("../../../assets/images/ecommerce.webp") no-repeat center / cover;
+    }
+
+    &.industry {
+      background: url("../../../assets/images/industry.webp") no-repeat center / cover;
+    }
+
+    & > div {
+      font-weight: 700;
+      @include mixins.fontSize(20);
+      color: var(--text-white);
+      text-align: center;
+      background: rgba(0, 0, 0, 0.80);
+      backdrop-filter: blur(6px);
+    }
+
+  }
+}
+
+.description {
+  color: var(--black-800);
+  font-weight: 400;
+  line-height: 24px;
+}

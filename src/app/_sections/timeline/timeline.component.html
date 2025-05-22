@@ -1,0 +1,48 @@
+<section class="pb-7 pt-120" id="history">
+
+  <div class="container">
+    <div class="carousel">
+      <owl-carousel-o #carousel [options]="customOptions" (translated)="onSlideChange($event)">
+        @for (timeline of timelineData; let i = $index; track i) {
+          <ng-template carouselSlide>
+            <div class="timeline-item mb-8">
+              <div class="carousel-header-description">
+                <div class="carousel-header pb-3">{{ timeline.header }}</div>
+                <div class="carousel-description">
+                  {{ timeline.description }}
+                </div>
+              </div>
+              <div class="carousel-year">{{ timeline.year }}</div>
+            </div>
+          </ng-template>
+        }
+      </owl-carousel-o>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline_years flex align-items-center justify-content-between relative" [style.transform]="'translateX(' + mobilePosition + 'px)'">
+      <div class="flex-column align-items-center relative lg:flex hidden">
+        <div class="year_dot"></div>
+        <div class="year_label pt-5">
+          2015
+        </div>
+      </div>
+      @for (year of timelineData; let i = $index; track i) {
+        <div class="flex flex-column align-items-center relative cursor-pointer" (click)="selectYear(year.id)"
+             [ngClass]="{'active' : year.activeState}">
+          <div class="year_dot"></div>
+          <div class="year_label pt-5">
+            {{ year.year }}
+          </div>
+        </div>
+      }
+      <div class="flex-column align-items-center relative lg:flex hidden">
+        <div class="year_dot"></div>
+        <div class="year_label pt-5">
+          2026
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

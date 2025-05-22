@@ -1,0 +1,20 @@
+@use '../../../assets/layout/scss/mixins';
+
+.counter {
+  border-radius: 1rem;
+  border: 1px solid var(--black-100);
+  background: var(--black-25);
+  flex: 1;
+
+  .numbers {
+    @include mixins.fontSize(44);
+    color: var(--red-500);
+    font-weight: 700;
+  }
+
+  span {
+    font-weight: 400;
+    line-height: 32px;
+    @include mixins.fontSize(20);
+  }
+}

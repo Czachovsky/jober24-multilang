@@ -1,0 +1,27 @@
+<section class="relative" >
+  <video autoplay loop muted playsinline>
+    <source src="assets/images/bg_video.mp4" type="video/mp4">
+  </video>
+  <div class="video-bg"></div>
+  <div class="py-8" >
+    <div class="header-wrapper lg:mb-7 mb-5">
+      <h2 class="text-center mb-3">Twoja Branża,<br> Nasza Ekspertyza</h2>
+      <div class="description text-center">Nasze działania obejmują wiele branż, dostosowując się do specyficznych
+        wymagań
+        i oczekiwań naszych klientów.
+      </div>
+    </div>
+    <div class="benefits-wrapper container  md:px-4">
+      @for (benefit of benefits; let i = $index; track i) {
+        <div class="px-3 py-4">
+          @if (benefit.icon) {
+            <span class="benefit-icon mb-4" [innerHTML]="benefit.icon | sanitize: 'html'"></span>
+          }
+          <div class="benefit-header text-center mb-2 px-4">{{ benefit.label }}</div>
+          <div class="benefit-description text-center">{{ benefit.description }}</div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+

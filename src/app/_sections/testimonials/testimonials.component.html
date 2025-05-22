@@ -1,0 +1,49 @@
+<section class="py-120">
+  <div class="xsm_container">
+    <h2 class="text-center lg:mb-4 mb-2">
+      Historia sukcesów naszych klientów
+    </h2>
+    <div class="description text-center font-italic mb-2">
+      "Nie wygrywa ten, kto ma wielkie plany, lecz ten, kto je realizuje do końca."
+    </div>
+    <div class="text-center">Napoleon Hill</div>
+  </div>
+  <div>
+    <div class="testimonals-wrapper lg:py-7 py-5">
+      <owl-carousel-o [options]="customOptions">
+        @for (testimonial of testimonialsObject; let i = $index; track i) {
+          <ng-template carouselSlide>
+            <div class="testimonial">
+              <div class="stars mb-4">
+                @for (star of [].constructor(testimonial.score); let i = $index; track i) {
+                  <span>
+              <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path
+  d="M12 0.599609L14.6942 8.89141H23.4127L16.3593 14.016L19.0534 22.3078L12 17.1832L4.94658 22.3078L7.64074 14.016L0.587322 8.89141H9.30583L12 0.599609Z"
+  fill="#F04B4A"/>
+</svg>
+
+            </span>
+                }
+              </div>
+              <div class="opinion mb-4">
+                <span>{{ testimonial.header }}</span>
+                <div>{{ testimonial.opinion }}</div>
+              </div>
+              <div class="person">
+                <span>{{ testimonial.name }}</span>
+                <div>{{ testimonial.company }}</div>
+              </div>
+            </div>
+          </ng-template>
+        }
+      </owl-carousel-o>
+    </div>
+  </div>
+  <div class="flex justify-content-center">
+    <j-button [size]="'large'" [label]="'Skontaktuj się z nami'" [icon]="'pi-arrow-circle-right'"
+              [iconPosition]="'right'" (clicked)="goToSection()"></j-button>
+  </div>
+</section>
+
+

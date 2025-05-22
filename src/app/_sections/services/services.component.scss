@@ -1,0 +1,62 @@
+@use '../../../assets/layout/scss/mixins';
+
+.xsm_container{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  @include mixins.lower-than('lg') {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+.servicesSections {
+  .service {
+    border: 1px solid var(--black-100);
+    border-radius: 1rem;
+    & > div{
+      @include mixins.lower-than('lg') {
+        flex-direction: column;
+      }
+    }
+    &.expanded {
+      border-color: var(--black-900);
+
+      .questionArrow {
+        transform: rotate(180deg);
+      }
+
+      .questionAnswer {
+        height: auto;
+        // height: 137px;
+      }
+    }
+  }
+
+  .servicesIcon {
+    width: 48px;
+    height: 48px;
+    background: var(--red-500);
+    border-radius: 50px;
+  }
+
+  .questionTitle {
+    font-weight: 700;
+    @include mixins.fontSize(20);
+    @include mixins.lower-than('lg') {
+      @include mixins.fontSize(18);
+    }
+  }
+
+  .questionAnswer {
+    color: var(--black-700);
+    @include mixins.fontSize(16);
+    line-height: 24px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+  .questionArrow {
+    font-size: 24px;
+    color: var(--gray-900);
+  }
+}

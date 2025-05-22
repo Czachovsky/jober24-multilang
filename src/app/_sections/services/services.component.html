@@ -1,0 +1,28 @@
+<section class="py-120" id="services">
+  <div class="xsm_container" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
+    <h2 class="mb-3 text-center">Nasze usługi</h2>
+    <span class="text-center subheader">Wykorzystujemy najnowocześniejsze technologie, takie jak sztuczna inteligencja i zaawansowana analityka danych, by</span>
+    <div class="servicesSections mt-7">
+      @for (service of services; let i = $index; track i) {
+        <div class="service mb-2" [ngClass]="{'expanded' : service.isExpanded}">
+          <div class="flex lg:align-items-center align-items-start p-4 cursor-pointer" (click)="changeExpandState(i, $event.target)">
+            <div class="flex align-items-center w-full">
+              @if (service.icon) {
+                <span class="servicesIcon mr-4 flex align-items-center justify-content-center"
+                      [innerHtml]="service.icon | sanitize: 'html'"></span>
+              }
+              <span class="lg:inline-block hidden questionTitle">{{ service.header }}</span>
+              <span class="questionArrow ml-auto">
+              <i class="pi pi-angle-down"></i>
+            </span>
+            </div>
+            <span class="lg:hidden inline-block questionTitle mt-3">{{ service.header }}</span>
+          </div>
+        <div class="questionAnswer" #questionAnswer [ngStyle]="{ 'height': service.isExpanded ? service.contentHeight + 'px' : '0' }">
+            <div class="p-4 pt-0">{{ service.body }}</div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
