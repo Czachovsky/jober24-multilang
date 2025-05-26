@@ -7,9 +7,9 @@
           <ng-template carouselSlide>
             <div class="timeline-item mb-8">
               <div class="carousel-header-description">
-                <div class="carousel-header pb-3">{{ timeline.header }}</div>
+                <div class="carousel-header pb-3">{{ ('timeline.' + timeline.translationKey + '.title') | translate }}</div>
                 <div class="carousel-description">
-                  {{ timeline.description }}
+                    {{ ('timeline.' + timeline.translationKey + '.description') | translate }}
                 </div>
               </div>
               <div class="carousel-year">{{ timeline.year }}</div>

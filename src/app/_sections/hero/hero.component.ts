@@ -2,13 +2,15 @@ import {Component, inject} from '@angular/core';
 import {ButtonComponent} from "../../components/button/button.component";
 import {UtilsService} from "../../services/utils.service";
 import {ScreenService} from "../../services/screen.service";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-hero',
   standalone: true,
-  imports: [
-    ButtonComponent
-  ],
+    imports: [
+        ButtonComponent,
+        TranslateModule
+    ],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss'
 })

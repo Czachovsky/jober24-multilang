@@ -1,23 +1,23 @@
 export interface MenuTypes {
-  label: string;
   href: string;
+  translationKey: string;
 }
 
 export const MenuElements: MenuTypes[] = [
   {
-    label: 'O nas',
-    href: 'services'
+    href: 'services',
+    translationKey: 'nav.about'
   },
   {
-    label: 'Historia',
-    href: 'history'
+    href: 'history',
+    translationKey: 'nav.history'
   },
   {
-    label: 'Nasze usługi',
-    href: 'why-us'
+    href: 'why-us',
+    translationKey: 'nav.services'
   },
   {
-    label: 'Kontakt',
-    href: 'form'
+    href: 'form',
+    translationKey: 'nav.contact'
   }
 ]

@@ -20,27 +20,27 @@ import {NgClass, NgForOf} from "@angular/common";
     `
     .toast-container {
       position: fixed;
-      top: 20px;
+      top: 10px;
       right: 20px;
       display: flex;
       flex-direction: column;
       gap: 10px;
+      z-index: 999;
     }
     .toast {
       padding: 16px;
       border-radius: 5px;
       color: white;
       font-weight: bold;
-      animation: fadeInOut 3s ease-in-out;
     }
     .success { background: green; }
     .error { background: red; }
     .info { background: blue; }
     @keyframes fadeInOut {
-      0% { opacity: 0; transform: translateY(-10px); }
-      10% { opacity: 1; transform: translateY(0); }
+      0% { opacity: 0;  }
+      10% { opacity: 1;  }
       90% { opacity: 1; }
-      100% { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0;  }
     }
     `
   ]

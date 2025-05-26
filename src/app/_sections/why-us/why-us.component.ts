@@ -4,15 +4,17 @@ import {SanitizePipe} from "../../pipes/sanitize.pipe";
 import {ButtonComponent} from "../../components/button/button.component";
 import {UtilsService} from "../../services/utils.service";
 import {NgClass} from "@angular/common";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-why-us',
   standalone: true,
-  imports: [
-    SanitizePipe,
-    ButtonComponent,
-    NgClass
-  ],
+    imports: [
+        SanitizePipe,
+        ButtonComponent,
+        NgClass,
+        TranslateModule
+    ],
   templateUrl: './why-us.component.html',
   styleUrl: './why-us.component.scss'
 })

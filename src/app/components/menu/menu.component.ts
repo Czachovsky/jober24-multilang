@@ -4,14 +4,16 @@ import {NgClass, NgIf} from "@angular/common";
 import {UtilsService} from "../../services/utils.service";
 import {ScreenService} from "../../services/screen.service";
 import {Router} from "@angular/router";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-menu',
   standalone: true,
-  imports: [
-    NgIf,
-    NgClass
-  ],
+    imports: [
+        NgIf,
+        NgClass,
+        TranslateModule
+    ],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.scss'
 })

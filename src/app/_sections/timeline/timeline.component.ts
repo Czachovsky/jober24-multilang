@@ -3,14 +3,16 @@ import {timelineObject, TimelineTypes} from "./timeline.types";
 import {CarouselComponent, CarouselModule, OwlOptions, SlidesOutputData} from "ngx-owl-carousel-o";
 import {NgClass} from "@angular/common";
 import {ScreenService} from "../../services/screen.service";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-timeline',
   standalone: true,
-  imports: [
-    CarouselModule,
-    NgClass
-  ],
+    imports: [
+        CarouselModule,
+        NgClass,
+        TranslateModule
+    ],
   templateUrl: './timeline.component.html',
   styleUrl: './timeline.component.scss'
 })

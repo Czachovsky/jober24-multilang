@@ -2,15 +2,17 @@ import {AfterViewInit, Component, ElementRef, QueryList, ViewChildren} from '@an
 import {ServicesObject, ServicesTypes} from "./services.types";
 import {NgClass, NgStyle} from "@angular/common";
 import {SanitizePipe} from "../../pipes/sanitize.pipe";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-services',
   standalone: true,
-  imports: [
-    NgClass,
-    SanitizePipe,
-    NgStyle
-  ],
+    imports: [
+        NgClass,
+        SanitizePipe,
+        NgStyle,
+        TranslateModule
+    ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss'
 })

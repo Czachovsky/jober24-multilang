@@ -5,10 +5,8 @@
   <div class="video-bg"></div>
   <div class="py-8" >
     <div class="header-wrapper lg:mb-7 mb-5">
-      <h2 class="text-center mb-3">Twoja Branża,<br> Nasza Ekspertyza</h2>
-      <div class="description text-center">Nasze działania obejmują wiele branż, dostosowując się do specyficznych
-        wymagań
-        i oczekiwań naszych klientów.
+      <h2 class="text-center mb-3" [innerHTML]="'benefits.title' | translate"></h2>
+      <div class="description text-center">{{'benefits.subtitle' | translate}}
       </div>
     </div>
     <div class="benefits-wrapper container  md:px-4">
@@ -17,8 +15,8 @@
           @if (benefit.icon) {
             <span class="benefit-icon mb-4" [innerHTML]="benefit.icon | sanitize: 'html'"></span>
           }
-          <div class="benefit-header text-center mb-2 px-4">{{ benefit.label }}</div>
-          <div class="benefit-description text-center">{{ benefit.description }}</div>
+          <div class="benefit-header text-center mb-2 px-4">{{ (benefit.translationKey + '.title') | translate}}</div>
+          <div class="benefit-description text-center">{{  (benefit.translationKey + '.description') | translate}}</div>
         </div>
       }
     </div>

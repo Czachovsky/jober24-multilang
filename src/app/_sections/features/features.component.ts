@@ -2,12 +2,14 @@ import {Component, inject} from '@angular/core';
 import {ScreenService} from "../../services/screen.service";
 import {CarouselModule, OwlOptions} from "ngx-owl-carousel-o";
 import {features, FeaturesTypes} from "./features.types";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-features',
   standalone: true,
   imports: [
-    CarouselModule
+    CarouselModule,
+    TranslateModule
   ],
   templateUrl: './features.component.html',
   styleUrl: './features.component.scss'

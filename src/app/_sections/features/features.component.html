@@ -7,7 +7,7 @@
           @for (feature of features; let i = $index; track i) {
             <ng-template carouselSlide>
               <div class="feature flex-1 flex flex-column justify-content-end {{feature.class}}">
-                <div class="py-3">{{ feature.header }}</div>
+                <div class="py-3">{{ feature.translationKey | translate }}</div>
               </div>
             </ng-template>
           }
@@ -17,19 +17,16 @@
       <div class="flex features mb-8">
         @for (feature of features; let i = $index; track i) {
           <div class="feature flex-1 flex flex-column justify-content-end {{feature.class}}">
-            <div class="py-3">{{ feature.header }}</div>
+            <div class="py-3">{{ feature.translationKey | translate }}</div>
           </div>
         }
       </div>
     }
     <div class="grid" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
       <div class="lg:col-7 col-12">
-        <h2 class="pb-3">Ludzie to fundament sukcesu – Twój partner w budowaniu efektywnych zespołów</h2>
+        <h2 class="pb-3">{{'features.title' | translate}}</h2>
         <div class="description">
-          W branżach e-commerce, automotive i produkcyjnej sukces zależy od dobrze dobranych zespołów. Nasza agencja
-          specjalizuje się w dostarczaniu kompleksowych rozwiązań rekrutacyjnych, które pozwalają firmom tworzyć
-          skuteczne, zgrane i wydajne zespoły. Dzięki nam zatrudnienie odpowiednich specjalistów i integracja nowych
-          pracowników przebiega sprawnie i efektywnie.
+            {{'features.description' | translate}}
         </div>
       </div>
     </div>

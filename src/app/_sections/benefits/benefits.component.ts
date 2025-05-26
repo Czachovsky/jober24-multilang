@@ -1,13 +1,15 @@
 import {AfterViewInit, Component} from '@angular/core';
 import {benefitsObject, BenefitsTypes} from "./benefits.types";
 import {SanitizePipe} from "../../pipes/sanitize.pipe";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-benefits',
   standalone: true,
-  imports: [
-    SanitizePipe
-  ],
+    imports: [
+        SanitizePipe,
+        TranslateModule
+    ],
   templateUrl: './benefits.component.html',
   styleUrl: './benefits.component.scss'
 })

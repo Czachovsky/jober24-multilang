@@ -3,14 +3,16 @@ import {footerData, FooterTypes} from "./footer.types";
 import {ContactFormComponent} from "../../components/contact-form/contact-form.component";
 import {UtilsService} from "../../services/utils.service";
 import {RouterLink} from "@angular/router";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-footer',
   standalone: true,
-  imports: [
-    ContactFormComponent,
-    RouterLink
-  ],
+    imports: [
+        ContactFormComponent,
+        RouterLink,
+        TranslateModule
+    ],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })

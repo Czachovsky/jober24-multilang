@@ -1,10 +1,10 @@
 export interface FeaturesTypes {
-  header: string;
+  translationKey: string;
   class: string;
 }
 
 export const features: FeaturesTypes[] = [
-  {header: 'Automotive', class: 'automotive'},
-  {header: 'e-commerce', class: 'ecommerce'},
-  {header: 'Przemysł', class: 'industry'}
+  {translationKey: 'features.automotive', class: 'automotive'},
+  {translationKey: 'features.ecommerce', class: 'ecommerce'},
+  {translationKey: 'features.industry', class: 'industry'}
 ]

@@ -1,37 +1,36 @@
 <div [formGroup]="recruitmentForm" class="j-contact-form mx-auto">
-  <h2 class="text-center block pb-4">Zacznijmy rozmowę</h2>
+  <h2 class="text-center block pb-4">{{'contact.title' | translate}}</h2>
   <div class="description text-center pb-7">
-    Chcesz sprawnie znaleźć najlepszych kandydatów? Wypełnij formularz, a nasz zespół skontaktuje się z Tobą
-    w ciągu 24 godzin!
+      {{'contact.subtitle' | translate}}
   </div>
   <div class="grid recruitmentForm">
     <div class="col-12">
-      <j-input [label]="'Ilość poszukiwanych pracowników'" [type]="'range'"
+      <j-input [label]="'contact.form.employeesCount' | translate"  [type]="'range'"
                [control]="recruitmentForm.get('employeesCount')"></j-input>
     </div>
     <div class="col-12 pb-4">
-      <j-input [label]="'Imię i nazwisko'" [inputId]="'fullName'" [required]="true" [type]="'text'"
-               [placeholder]="'Wpisz imię i nazwisko'" [control]="recruitmentForm.get('fullName')"></j-input>
+      <j-input [label]="'contact.form.fullName' | translate" [inputId]="'fullName'" [required]="true" [type]="'text'"
+               [placeholder]="'contact.form.fullNamePlaceholder' | translate" [control]="recruitmentForm.get('fullName')"></j-input>
     </div>
     <div class="col-12 pb-4">
-      <j-input [label]="'Email'" [inputId]="'email'" [required]="true" [type]="'text'" [placeholder]="'Wpisz email'"
+      <j-input [label]="'contact.form.email' | translate" [inputId]="'email'" [required]="true" [type]="'text'" [placeholder]="'contact.form.emailPlaceholder' | translate"
                [control]="recruitmentForm.get('email')"></j-input>
     </div>
     <div class="lg:col-6 col-12 pb-4">
       <div class="pr-1">
-        <j-input [label]="'NIP'" [inputId]="'nip'" [type]="'text'" [required]="true" [placeholder]="'Wpisz NIP'"
+        <j-input [label]="'contact.form.nip' | translate" [inputId]="'nip'" [type]="'text'" [required]="true" [placeholder]="'contact.form.nipPlaceholder' | translate"
                  [control]="recruitmentForm.get('nip')"></j-input>
       </div>
     </div>
     <div class="lg:col-6 col-12 pb-4">
       <div class="pl-1">
-        <j-input [label]="'Firma'" [inputId]="'companyName'" [type]="'text'" [placeholder]="'Wpisz nazwę firmy'"
+        <j-input [label]="'contact.form.company' | translate" [inputId]="'companyName'" [type]="'text'" [placeholder]="'contact.form.companyPlaceholder' | translate"
                  [control]="recruitmentForm.get('companyName')"></j-input>
       </div>
     </div>
     <div class="col-12 pb-4">
 
-      <j-input [label]="'Wiadomość'" [required]="true" [type]="'textarea'" [placeholder]="'Wpisz wiadomość'"
+      <j-input [label]="'contact.form.message' | translate" [required]="true" [type]="'textarea'" [placeholder]="'contact.form.messagePlaceholder' | translate"
                [control]="recruitmentForm.get('message')"></j-input>
     </div>
     <div class="col-12">
@@ -40,7 +39,7 @@
 <!--        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</label>-->
     </div>
     <div class="col-12">
-      <j-button [label]="'Wyślij zapytanie'" [btnClass]="'w-full'" [size]="'large'" (clicked)="submitForm()"></j-button>
+      <j-button [label]="'contact.form.submit' | translate" [btnClass]="'w-full'" [size]="'large'" (clicked)="submitForm()"></j-button>
     </div>
   </div>
 </div>

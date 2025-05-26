@@ -1,3 +1,406 @@
 {
-  "A" : "englisz"
+  "nav": {
+    "about": "About Us",
+    "history": "History",
+    "services": "Our Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "We Recruit and Build Teams",
+    "title": "We take on challenges where others gave up.",
+    "description": "We don't just look for candidates – <b>we create teams</b> that drive your company's success. Thanks to <b>advanced technology and precise selection</b>, we deliver <b>the best specialists</b> from e-commerce, automotive and production industries.",
+    "features": {
+      "fast": "We act fast, effectively and without compromise.",
+      "global": "Global reach – we reach the best specialists in every time zone"
+    },
+    "stats": {
+      "database": "People in database",
+      "satisfaction": "Satisfied<br/>clients",
+      "growth": "Business growth<br/>opportunities increase"
+    },
+    "cta": "Discover our success story"
+  },
+  "features": {
+    "automotive": "Automotive",
+    "ecommerce": "E-commerce",
+    "industry": "Industry",
+    "title": "People are the foundation of success – Your partner in building effective teams",
+    "description": "In e-commerce, automotive and production industries, success depends on well-matched teams. Our agency specializes in providing comprehensive recruitment solutions that allow companies to create effective, cohesive and efficient teams. Thanks to us, hiring the right specialists and integrating new employees runs smoothly and efficiently."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We use the most modern technologies, such as artificial intelligence and advanced data analytics, to",
+    "team_building": {
+      "title": "Team Building Through Employee Leasing",
+      "description": "We provide flexible HR support, enabling companies to quickly adjust the number of employees to their needs. Our experts help create cohesive teams ready to achieve your business goals. We take care of formalities so you can focus on growth strategy."
+    },
+    "recruitment": {
+      "title": "Recruitment and Selection of the Best Talents",
+      "description": "We use modern selection methods to find and match specialists and leaders to your company who will strengthen your team. We effectively recruit for both operational and managerial positions, ensuring long-term organizational benefits. We offer a wide range of recruitment, supported by our partner offices in countries such as Moldova, Ukraine, Kazakhstan, Philippines, India, Nepal and the United Arab Emirates."
+    },
+    "outsourcing": {
+      "title": "Process Outsourcing and Team Management",
+      "description": "We take responsibility for building and managing key processes in your company. Our solutions include logistics management, quality control, warehouse operations and other key operational functions. We focus on efficiency and consistency of team operations."
+    },
+    "legalization": {
+      "title": "Legalization of Foreign Employment",
+      "description": "For companies employing larger groups of foreigners, we provide dynamic and effective support in employment legalization. Thanks to our experience in cross-border recruitment, we streamline the entire process, eliminating unnecessary formalities and speeding up procedures. Our team of experts works quickly and efficiently, providing comprehensive legal service, which allows employers to focus on business development and employees on safe and legal employment."
+    }
+  },
+  "timeline": {
+    "2016": {
+      "title": "Entry into Automotive Market",
+      "description": "Jober24 starts operations, securing the first major contract for 160 employees in the automotive industry. This is the moment that sets the direction for further development and expansion."
+    },
+    "2017": {
+      "title": "Expansion to the East",
+      "description": "Opening an office in Kiev allows for increased recruitment efficiency and access to the Ukrainian labor market."
+    },
+    "2018": {
+      "title": "Globalization and Entry into Asian Markets",
+      "description": "Jober24 expands operations to Asia, recruiting workers from Nepal, India, Philippines, Vietnam and Malaysia. Crossing the symbolic threshold of 1000 employed people confirms the company's growing position."
+    },
+    "2019": {
+      "title": "Entry into Middle East Market",
+      "description": "A Jober24 company is established in the United Arab Emirates, enabling more effective recruitment and cooperation with local business partners."
+    },
+    "2020": {
+      "title": "Headquarters in Switzerland and Entry into E-commerce",
+      "description": "Jober24 moves its command center to Switzerland, preparing an expansion strategy in Central Europe. Despite the global COVID-19 pandemic, the company maintains its position by entering the e-commerce industry."
+    },
+    "2021": {
+      "title": "First IT Contracts in Swiss Banking",
+      "description": "Jober24 secures its first strategic contracts for providing IT specialists to banks in Switzerland, strengthening its position in the financial sector."
+    },
+    "2022": {
+      "title": "Entry into Healthcare Sector",
+      "description": "Expanding operations to include the healthcare industry allows for further service diversification and delivery of medical personnel."
+    },
+    "2023": {
+      "title": "Further Expansion and Market Consolidation",
+      "description": "Further expansion and market consolidation"
+    },
+    "2024": {
+      "title": "Jober24 AI: Automation and Scaling",
+      "description": "The company implements advanced AI solutions that enable faster and more efficient business scaling. New artificial intelligence-based products become the foundation for further development."
+    },
+    "2025": {
+      "title": "Digital Transformation and Technological Development",
+      "description": "Jober24 builds its own AI portal and advanced recruitment tools using the latest IT technologies. The IT department becomes a key pillar of the company, enabling further automation and global expansion. At the same time, Jober24 is looking for partners – humanoid robot manufacturers to strengthen its position in the outsourcing sector."
+    }
+  },
+  "whyUs": {
+    "title": "Why trust us?",
+    "specialization": {
+      "title": "Specialization in Team Building",
+      "description": "We know the specifics of the e-commerce, automotive and production sectors, which allows us to create teams tailored to industry challenges."
+    },
+    "speed": {
+      "title": "Quick Response to Market Needs",
+      "description": "In a short time we deliver the right people, minimizing downtime and ensuring operational continuity."
+    },
+    "integration": {
+      "title": "Effective Employee Integration",
+      "description": "We help with quick onboarding of new employees, which increases productivity and team stability."
+    },
+    "costs": {
+      "title": "Cost Optimization",
+      "description": "Our services allow for flexible HR budget management, ensuring the highest quality of employment."
+    },
+    "tools": {
+      "title": "Modern Recruitment Tools",
+      "description": "We use advanced competency analysis systems to find the best candidates and match them to your company's needs."
+    },
+    "bottomText": {
+      "title": "Don't leave team building <br class=\"lg:hidden inline-block\"> to chance.",
+      "description": "Contact us and create a strong, <br class=\"lg:hidden inline-block\"> efficient and well-<br class=\"lg:inline-block hidden\"> functioning <br class=\"lg:hidden inline-block\"> team today!",
+      "cta": "Contact us"
+    }
+  },
+  "benefits": {
+    "title": "Your Industry,<br> Our Expertise",
+    "subtitle": "Our activities cover many industries, adapting to the specific requirements and expectations of our clients.",
+    "automotive": {
+      "title": "Automotive",
+      "description": "Production for the automotive industry."
+    },
+    "ecommerce": {
+      "title": "e-commerce",
+      "description": "Logistics, warehouses"
+    },
+    "production": {
+      "title": "Production",
+      "description": "Food and poultry industry."
+    },
+    "technical": {
+      "title": "Technology and Industry",
+      "description": "Industrial welding specialists, technical installation fitters, industrial electricians."
+    },
+    "engineering": {
+      "title": "Engineering and Advanced Production",
+      "description": "Aviation, CNC."
+    }
+  },
+  "testimonials": {
+    "title": "Our Clients' Success Stories",
+    "subtitle": "\"It's not the one with great plans who wins, but the one who implements them to the end.\"",
+    "story1": {
+      "title": "110 people in 10 days – rescue for the company at the start of summer season",
+      "content": "The summer season was approaching, and the service company was facing staffing shortages – vacations of permanent employees and ineffectiveness of other agencies made it impossible to serve all customers. Immediate action was needed, but competing agencies delivered only individual candidates. Thanks to Jober24, a full 110-person team was built in 10 days.",
+      "company": "Poultry plants"
+    },
+    "story2": {
+      "title": "18 aviation engineers in 14 days – express recruitment for industry leader",
+      "content": "A global aircraft component manufacturer faced a sudden challenge – urgently needed 18 highly qualified engineers to keep up with growing demand and meet deadlines for key contracts. Thanks to Jober24 and our 24/7 global recruitment network, in just 14 days we delivered a complete team of engineers specializing in aerodynamics, avionics and composites.",
+      "company": "AIRBUS"
+    },
+    "story3": {
+      "title": "50 people in 7 days – express recruitment for e-commerce at peak sales",
+      "content": "A dynamically developing e-commerce store faced the challenge of a sudden increase in orders during the sales season. Lack of additional hands threatened delays in order fulfillment and decreased customer satisfaction. Thanks to Jober24 and our lightning-fast 24/7 recruitment, in 7 days we delivered 50 qualified warehouse and logistics workers ready for immediate action.",
+      "company": "Logistic"
+    },
+    "cta": "Contact us"
+  },
+  "contact": {
+    "title": "Let's start the conversation",
+    "subtitle": "Want to efficiently find the best candidates? Fill out the form and our team will contact you within 24 hours!",
+    "form": {
+      "employeesCount": "Number of employees sought",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter email",
+      "nip": "Tax Number",
+      "nipPlaceholder": "Enter tax number",
+      "company": "Company",
+      "companyPlaceholder": "Enter company name",
+      "message": "Message",
+      "messagePlaceholder": "Enter message",
+      "submit": "Send inquiry"
+    }
+  },
+  "footer": {
+    "brandName": "JOBER24 SWISS GROUP LIMITED LIABILITY COMPANY",
+    "address": "Wspólna 70, 00-687 Warsaw, Poland",
+    "email": "kontakt@jober24.pl",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "rights": "2025 © Jober24 | All Rights Reserved"
+  },
+  "messages": {
+    "success": "Message sent",
+    "error": "An error occurred"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "introduction": {
+      "heading": "Introduction",
+      "content1": "Jober24 Group GmbH (\"Jober24\") is committed to protecting the privacy and confidentiality of personal data of all our clients, job candidates, and other third parties.",
+      "content2": "This Privacy and Data Protection Policy explains how we collect, use, process and protect personal data in accordance with the Personal Data Protection Act (FADP), the General Data Protection Regulation (GDPR) and other applicable legal regulations.",
+      "content3": "Any questions and requests regarding personal data can be sent to our Data Protection Officer by sending an email to: admin@jober24.ch or by phone: +41 0 41 5 111 999, or by mail to: Jober24 Group GmbH Neuhofstrasse 12, 6340 Baar."
+    },
+    "dataCollection": {
+      "heading": "What personal data do we collect?",
+      "candidateData": {
+        "title": "CANDIDATE DATA:",
+        "content": "To provide the best employment opportunities tailored to you, we need to process certain information about you. We only ask for details that we believe will really help us help you, such as your name, age, contact details, education, employment history, emergency contacts, immigration status, financial information (if we need to perform a financial check), social security number (and you may also choose to share other relevant information with us). Where necessary and in accordance with local laws and requirements, we will also collect information about your health, diversity information or details of any criminal convictions."
+      },
+      "clientData": {
+        "title": "CLIENT DATA:",
+        "content": "If you are a Jober24 client, we need to collect and use information about you or about people in your organization in the course of providing services related to finding candidates suitable for you or your organization."
+      },
+      "websiteUsers": {
+        "title": "WEBSITE USERS:",
+        "content": "We collect limited data from users of our website, which we use to improve your experience when using our website or mobile applications and to help us manage the services we provide. This includes information such as how you use the website, frequency of access to the site and the hours when our site is most popular."
+      },
+      "additionalInfo": "If you would like to learn more about the data we collect about you when you visit our website, click here."
+    },
+    "dataUsage": {
+      "heading": "How we use personal data",
+      "intro": "Personal data will be collected and processed by us for the following purposes:",
+      "purposes": [
+        "To best tailor content and services to your preferences.",
+        "To inform you by email, phone and/or mail about our services.",
+        "To provide other services - such as newsletters or information about upcoming events - that we may offer you.",
+        "To help us create, publish and improve content and services most relevant to you.",
+        "To ensure that content and services offered by the website are presented in the most effective way for you and your device.",
+        "To enable you to participate in interactive features when you choose to do so.",
+        "To further develop and improve the website, content and our services and systems."
+      ]
+    },
+    "dataSharing": {
+      "heading": "Sharing data with third parties",
+      "content1": "We will share your personal data with other entities in our group as part of our regular reporting activities regarding company performance, in the context of business reorganization or group restructuring exercise, support in system maintenance and data hosting. Group entities are required to take appropriate security measures to protect your personal data in accordance with our policies.",
+      "content2": "We use the services of some external suppliers (so-called \"processors\") who process data for us based on strict instructions and a binding contract. Our processors provide the following services:",
+      "services": [
+        "IT services",
+        "Cloud data storage",
+        "Data protection consulting",
+        "Legal advice",
+        "Accounting services"
+      ],
+      "content3": "Processors are required to take appropriate security measures to protect your personal data in accordance with our policies. We do not allow our processors to use your personal data for their own purposes. We authorize them to process your personal data only for specific purposes and in accordance with our instructions."
+    },
+    "dataTransfer": {
+      "heading": "Transfer of data to other countries or international organizations",
+      "content": "We transfer your personal data to entities in our group in the EU and we may also transfer this data outside the EU. If this happens, you can expect a similar level of personal data protection as in the UK and EU."
+    },
+    "dataStorage": {
+      "heading": "Where we store and process your personal data",
+      "content1": "We store your information in our electronic database, which is stored on our on-site servers. We access our servers daily as part of daily business operations from a secure platform that is password protected and has strict access restrictions.",
+      "content2": "All information you provide to us is stored on our secure servers. Unfortunately, the transmission of information over the Internet is not completely secure. Although we make every effort to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. After receiving your data, we will apply strict procedures and security features to prevent unauthorized access.",
+      "content3": "As an environmentally conscious company, we try to limit the amount of printed materials, especially those containing personal data. In case of having any printed personal data, e.g. CVs, our company policy requires that documents are not left on desks and are locked away every evening. We destroy all confidential documents daily and weekly."
+    },
+    "cookies": {
+      "heading": "Use of cookies",
+      "content1": "A cookie is a small data file that is sent from a web server to a browser when it visits the server's site. Learn more about using cookies at <a\n href=\"http://www.allaboutcookies.org/\">www.allaboutcookies.org</a>. Cookies are used on the jober24.ch site to remember your login, track network traffic based on aggregate data so no individuals are identified, remember session information such as your last search (this information is deleted every time you close your browser). Most browsers allow you to disable cookies. If you want to learn how to do this, check the help menu in your browser. However, disabling cookies will limit the use of our website.",
+      "policyHeading": "Cookie Privacy Policy",
+      "policyContent1": "This site uses cookies. Cookies are text files that contain data from visited websites or domains and are stored by the browser on the user's computer. A cookie is mainly used to store information about the user during or after their visit to the online offer. The stored information may include, for example, language settings on the website, login status, shopping cart or the place where a video was watched. The term \"cookies\" also includes other technologies that perform the same functions as cookies (e.g. when user information is stored using pseudonymous online identifiers, also called \"user identifiers\").",
+      "cookieTypes": {
+        "heading": "The following types of cookies and functions are distinguished:",
+        "items": [
+          "<strong>Temporary cookies (also: session or session cookies)<br></strong>Temporary cookies are deleted at the latest after the user leaves the online offer and closes the browser.",
+          "<strong>Persistent cookies<br></strong>Persistent cookies remain saved even after closing the browser. For example, login status can be saved or preferred content can be displayed directly when the user visits the website again. User interests that are used for reach measurement or marketing purposes can also be saved in such a cookie.",
+          "<strong>First-party cookies<br></strong>First-party cookies are set by us.",
+          "<strong>Third-party cookies (also: third-party cookies)<br></strong>Third-party cookies are mainly used by advertisers (so-called third parties) to process user information.",
+          "<strong>Necessary cookies (also: essential or strictly necessary)<br></strong>Cookies may be absolutely necessary for the website to function (e.g. to save logins or other user entries or for security reasons).",
+          "<strong>Statistical, marketing and personalization cookies<br></strong>Cookies are also generally used for reach measurement, when user interests or behavior (e.g. viewing certain content, using functions, etc.) are saved in a user profile on individual websites. Such profiles are used, for example, to show users content that corresponds to their potential interests. This process is also called \"tracking\", i.e. tracking potential user interests. If we use cookies or \"tracking\" technologies, we will inform you separately in our data protection declaration or when obtaining consent."
+        ]
+      },
+      "legalBasis": "Legal basis notes: The legal basis on which we process your personal data using cookies depends on whether we ask for your consent. If so and you consent to the use of cookies, the legal basis for processing your data is expressed consent. Otherwise, data processed using cookies will be processed based on our legitimate interests (e.g. for commercial operation of our online offer and its improvement) or if the use of cookies is necessary to fulfill our contractual obligations.",
+      "retention": "Retention period: If we do not provide you with explicit information about the retention period of persistent cookies (e.g. as part of the so-called cookie consent), assume that the retention period may be up to two years.",
+      "optOut": "General information on withdrawal of consent and objection (opt-out): Depending on whether processing is based on consent or legal authorization, you have the option to withdraw consent or object to the processing of your data using cookie technologies at any time (collectively referred to as \"opt-out\"). You can first object using your browser settings, for example by disabling the use of cookies (which may also limit the functionality of our online offer). Objection to the use of cookies for online marketing purposes can also be made using various services, especially in the case of tracking, through the pages https://optout.aboutads.info and https://www.youronlinechoices.com/.",
+      "consentManagement": "Processing cookie data based on consent: We use a cookie consent management process where users consent to the use of cookies or object to their use. You can withdraw your consent at any time or change your cookie settings at any time on our site (link to cookie management settings).",
+      "analyticalTools": {
+        "heading": "Use of other analytical and marketing tools",
+        "content": "Also as part of this process, we use analytical and marketing platforms to even more precisely tailor the content and services on the website to your needs. For this reason, for user convenience, we have taken the following privacy protection measures:",
+        "tools": [
+          "Analysis and advertising using Google Analytics and Google Ads",
+          "Marketing and advertising (e.g. using Adform, Clickdimension)",
+          "Some elements of the Google platform and other services (e.g. when displaying ads)"
+        ]
+      }
+    },
+    "sslEncryption": {
+      "heading": "Privacy policy for SSL/TLS encryption",
+      "content1": "This website uses SSL/TLS encryption to ensure the security and protection of transmission of confidential data, such as queries you send to us as the site operator. You can recognize an encrypted connection by the fact that the address in the browser bar changes from \"http://\" to \"https://\" and a padlock symbol appears in the browser bar.",
+      "content2": "If SSL or TLS encryption is active, the data you transmit to us cannot be read by third parties."
+    },
+    "googleAnalytics": {
+      "heading": "Privacy policy for Google Analytics",
+      "content1": "This website uses Google Analytics, a web analytics service provided by Google Ireland Limited. If the person responsible for data processing on this site is located outside the European Economic Area or Switzerland, Google Analytics data processing is performed by Google LLC. Google LLC and Google Ireland Limited are hereinafter referred to as \"Google\".",
+      "content2": "We use the obtained statistics to improve our offer and make it more interesting for users. This website also uses Google Analytics to analyze visits across different devices, which is done using a user identifier. If you have a Google account, you can deactivate cross-device analysis in the settings, in the \"My data\", \"Personal data\" section.",
+      "content3": "The legal basis for using Google Analytics is Article 6 paragraph 1 point 1 lit. f GDPR. The IP address transmitted by your browser as part of Google Analytics is not combined with other Google data. We would like to point out that on this site Google Analytics has been extended with the code \"_anonymizeIp();\" to ensure anonymous collection of IP addresses. This means that IP addresses are further processed in abbreviated form, making it impossible to associate them with a person. If the data collected about you will be personal in nature, it will be immediately excluded and personal data immediately deleted.",
+      "content4": "Only in exceptional cases will the full IP address be transmitted to a Google server in the USA and shortened there. On behalf of the operator of this site, Google will use this information to evaluate the use of the site, compile reports on site activity and provide other services related to site activity and internet use for the site operator.",
+      "content5": "Google Analytics uses cookies. Information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there. You can prevent the storage of cookies by setting your browser software accordingly; however, we would like to point out that in this case you will not be able to fully use all the functions of this site. You can also prevent the collection of data by Google Analytics that is generated by the cookie and relates to your use of this site (including your IP address) and their processing by Google by downloading the available browser plugin at the following link and installing it: Google Analytics deactivation.",
+      "content6": "You can also prevent the use of Google Analytics by clicking on this link: Deactivate Google Analytics. This will save an opt-out cookie on your data carrier, which prevents the processing of personal data by Google Analytics. Please note that if you delete all cookies on your device, opt-out cookies will also be deleted, so you will have to set opt-out again if you still want to prevent data collection in this way. Opt-out cookies are set per browser and computer/device and therefore must be activated separately for each browser, computer or other device."
+    },
+    "googleWebFonts": {
+      "heading": "Data protection statement for using Google Web Fonts",
+      "content1": "This site uses so-called Google Web Fonts, which are provided by Google, to uniformly display fonts. When you visit the page, your browser loads the required web fonts into its cache to properly display texts and fonts. If your browser does not support web fonts, your computer will use a standard font.",
+      "content2": "More information about Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://www.google.com/policies/privacy/"
+    },
+    "googleTagManager": {
+      "heading": "Google Tag Manager",
+      "content": "Google Tag Manager is a solution that allows us to manage so-called website tags through an interface and, for example, integrate Google Analytics and other Google marketing services with our online offer. The tag manager itself, which implements the tags, does not process any personal data of users. Regarding the processing of users' personal data, reference should be made to the following information about Google services. Terms of use: https://www.google.com/intl/de/tagmanager/use-policy.html"
+    },
+    "audioVideoConferences": {
+      "heading": "Audio and video conferences",
+      "content1": "We use audio and video conferencing services to communicate with our users and others. In particular, we may use them to conduct audio and video conferences, virtual meetings and training such as webinars.",
+      "content2": "We only use services that provide adequate data protection. In addition to this privacy policy, the terms of service of the services used, such as terms and conditions or privacy policies, also apply.",
+      "content3": "In particular, we use Zoom, a service of the American company Zoom Video Communications Inc. Zoom also provides rights under the European General Data Protection Regulation (GDPR) for users in Switzerland. More information about the type, scope and purpose of data processing can be found in Zoom's data protection guidelines at this link: Zoom data protection policies and on the \"Legal regulations and data protection\" page"
+    },
+    "legalBasis": {
+      "heading": "Legal basis for processing",
+      "content": "Art. 6 para. 1 lit. a GDPR constitutes the legal basis for processing operations where we obtain consent for processing for a specific purpose. If the processing of personal data is necessary for the performance of a contract to which the data subject is a party, as is the case, for example, in processing operations necessary for the delivery of goods or the provision of other services or benefits, the processing is based on Art. 6 para. 1 lit. b GDPR. The same applies to processing operations necessary to take steps prior to entering into a contract, for example in the case of inquiries about our products or services. If our company is required to process personal data due to a legal obligation, e.g. to fulfill tax obligations, the processing is based on Art. 6 para. 1 lit. c GDPR. In rare cases, the processing of personal data may be necessary to protect the vital interests of the data subject or another natural person. Such situations may occur, for example, if an accident occurs in our company and a doctor, hospital or other entity needs to be provided with necessary data such as name, age, health insurance details or other data vital to life. Then the processing is based on Art. 6 para. 1 lit. d GDPR. Finally, processing operations may be based on Art. 6 para. 1 lit. f GDPR. Processing operations that are not covered by any of the above legal bases are based on this legal basis if the processing is necessary to protect a legitimate interest of our company or a third party, provided that the interests, fundamental rights and freedoms of the data subject do not prevail. Processing is particularly permitted because it has been explicitly indicated by the European legislator. In this regard, it was considered that a legitimate interest may exist if the data subject is a customer of the data controller (recital 47 para. 2 GDPR)."
+    },
+    "legitimateInterests": {
+      "heading": "Legitimate interests in processing pursued by the controller or third party",
+      "content": "If the processing of personal data is based on Art. 6 para. 1 lit. f GDPR, our legitimate interest is to conduct business for the benefit of the welfare of all our employees and shareholders."
+    },
+    "retentionPeriod": {
+      "heading": "Personal data retention period",
+      "content": "The criterion for storing personal data is the corresponding retention period required by law. After this period expires, the relevant data will be routinely deleted unless it is still needed to fulfill the contract or take action to conclude a contract."
+    },
+    "dataSubjectRights": {
+      "heading": "Rights of access, correction, deletion and restriction",
+      "content1": "It is important that the personal data we hold about you is accurate and up to date. Please inform us of any changes to your personal data during the recruitment process.",
+      "content2": "In certain circumstances you have the right to:",
+      "rights": [
+        "Request access to your personal data (so-called \"data access request\"). This allows you to receive a copy of the personal data we hold about you and check that we are processing it lawfully.",
+        "Request correction of personal data we hold about you. This allows you to correct incomplete or inaccurate data we hold.",
+        "Request deletion of personal data. This allows you to request deletion of personal data when we do not have a good reason to continue processing it. You also have the right to request deletion of personal data if you exercise the right to object to processing (see below).",
+        "Object to the processing of personal data if we process it based on legitimate interest (or the interests of a third party) and there is something in your particular situation that makes you want to object to processing data on this basis. You also have the right to object to the processing of personal data for direct marketing purposes.",
+        "Request restriction of personal data processing. This allows you to suspend the processing of personal data about you, for example, if you want to check its accuracy or the reason for processing.",
+        "Request transfer of your personal data to another party."
+      ],
+      "contact": "If you want to review, verify, correct or request deletion of your personal data, object to the processing of your personal data, or request that we transfer a copy of your personal data to another party, contact us at admin@jober24.ch",
+      "identity": "We may ask you to provide specific information to confirm your identity and ensure the right to access data (or exercise other rights). This is an additional security measure that ensures that personal data is not disclosed to a person who has no right to it."
+    },
+    "complaints": {
+      "heading": "Complaints",
+      "content1": "If you have any concerns or complaints regarding the protection of personal data, you should first report them to us by email at: <a href=\"mailto:admin@jober24.ch\">admin@jober24.ch</a> or by mail: Jober24 Group GmbH, Neuhofstrasse 12, 6340 Baar.",
+      "content2": "If you have a complaint or concerns that have not been resolved internally, you can report them to the supervisory authority for personal data protection. Visit www.ico.org for more information."
+    },
+    "changes": {
+      "heading": "Changes to this Privacy Policy",
+      "content": "Any changes that we make to our Privacy Policy in the future will be published on this page."
+    }
+  },
+  "termsConditions": {
+    "title": "Terms and Conditions",
+    "subtitle": "By using this website, you acknowledge that you have read and agree to the following terms and conditions.",
+    "privacyStatement": {
+      "heading": "Privacy Statement",
+      "content": "We are committed to protecting your privacy. Authorized employees within the company use all information collected from individual customers only to the extent necessary to perform their duties. We continuously review our systems and data to ensure the best possible service to our customers. Parliament has introduced specific offenses regarding unauthorized actions against computer systems and data. We will investigate any such actions to prosecute and/or take civil action to recover damages from those responsible."
+    },
+    "confidentiality": {
+      "heading": "Confidentiality",
+      "content1": "Candidate records are treated as confidential and therefore will not be disclosed to any third party unless required by law. Candidates have the right to inspect and copy any candidate records we maintain, provided we are given reasonable advance notice of such request. Candidates are asked to keep copies of any materials provided in connection with our services. Where appropriate, we will provide candidates with relevant written information, brochures, or copies of records as part of an agreed contract, for the benefit of both parties.",
+      "content2": "We will not sell, share, or rent your personal data to third parties or use your email address for unsolicited mailings. Any emails sent by Jober24 will relate solely to the provision of agreed services and products."
+    },
+    "employers": {
+      "heading": "Employers",
+      "intro": "Jober24 makes no representations or warranties regarding:",
+      "items": [
+        "the existence or availability of any job offer advertised on the Jober24 site;",
+        "whether any employer will request your CV, invite you for an interview, or hire you;",
+        "whether any employer will maintain the confidentiality of your personal data or information provided to that employer or candidate;",
+        "the final terms and duration of any job offer obtained through the Jober24 site."
+      ]
+    },
+    "exclusionsLimitations": {
+      "heading": "Exclusions and Limitations",
+      "intro": "The information on this website is provided on an \"as is\" basis. To the fullest extent permitted by law, Jober24:",
+      "items": [
+        "excludes all representations and warranties relating to this website and its contents or which may be provided by affiliates or other third parties, including regarding any inaccuracies or omissions on this website and/or Jober24 literature;",
+        "excludes all liability for damages arising from or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether the loss of such profits was foreseeable, occurred in the normal course of business, or you notified Jober24 of the possibility of such loss), damage to your computer, computer software, systems and programs and data thereon, or any other direct, indirect, consequential, and incidental damages."
+      ],
+      "disclaimer": "However, Jober24 does not exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected."
+    },
+    "logFiles": {
+      "heading": "Log Files",
+      "content": "We use IP addresses to analyze trends, administer the site, track user movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for administrative purposes, detecting usage patterns, and troubleshooting, our web servers automatically log standard access information including browser type, access/opening times, requested URL, and referring URL. This information is not shared with third parties and is used solely within Jober24 on a need-to-know basis. Any identifiable data will not be used in any other way than described above without your explicit consent."
+    },
+    "cookies": {
+      "heading": "Cookies",
+      "content": "Like most interactive websites, our website [or internet service provider] uses cookies to enable us to retrieve user data for each visit. Cookies are used in some areas of our site to enable functionality of those areas and ease of use for visitors. Some of our affiliate partners may also use cookies."
+    },
+    "links": {
+      "heading": "Links from this website",
+      "content": "We do not monitor or review the content of other parties' websites which are linked to from this website. Opinions expressed or materials appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as our position. Please be aware that we are not responsible for the privacy practices or content of these sites. We encourage our users to be aware when they leave our site and to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information. Jober24 assumes no responsibility for any losses or damages in any way howsoever caused resulting from your disclosure to third parties of personal information."
+    },
+    "copyright": {
+      "heading": "Copyright Notice",
+      "content": "Copyright and other relevant intellectual property rights exist on all text relating to Jober24 services and the full content of this website."
+    },
+    "general": {
+      "heading": "General",
+      "content": "If any provision of these terms is found to be invalid or unenforceable for any reason (including, but not limited to, the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of Jober24 to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to act with respect to a breach, shall not be construed as a waiver of such provisions and shall not affect the validity of these Terms and Conditions or any Agreement or part thereof, or the right to enforce each and every such provision. These Terms and Conditions may not be varied, amended, modified or supplemented without the written consent signed by duly authorized representatives of the company."
+    },
+    "changesNotice": {
+      "heading": "Notice of Changes",
+      "content": "We reserve the right to change these conditions from time to time as we see fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that on our homepage and other key pages of our website. If there are any changes to how we use our website users' Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. Any changes to our privacy policy will be posted to our website 30 days prior to these changes taking place. You are therefore advised to re-read this statement on a regular basis."
+    }
+  }
 }

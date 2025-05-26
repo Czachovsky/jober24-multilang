@@ -3,14 +3,16 @@ import {testimonials, TestimonialsTypes} from "./testimonials.types";
 import {ButtonComponent} from "../../components/button/button.component";
 import {CarouselModule, OwlOptions} from "ngx-owl-carousel-o";
 import {UtilsService} from "../../services/utils.service";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-testimonials',
   standalone: true,
-  imports: [
-    ButtonComponent,
-    CarouselModule
-  ],
+    imports: [
+        ButtonComponent,
+        CarouselModule,
+        TranslateModule
+    ],
   templateUrl: './testimonials.component.html',
   styleUrl: './testimonials.component.scss'
 })

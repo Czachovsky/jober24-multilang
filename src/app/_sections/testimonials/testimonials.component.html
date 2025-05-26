@@ -1,10 +1,10 @@
 <section class="py-120">
   <div class="xsm_container">
     <h2 class="text-center lg:mb-4 mb-2">
-      Historia sukcesów naszych klientów
+      {{'testimonials.title' | translate}}
     </h2>
     <div class="description text-center font-italic mb-2">
-      "Nie wygrywa ten, kto ma wielkie plany, lecz ten, kto je realizuje do końca."
+        {{'testimonials.subtitle' | translate}}
     </div>
     <div class="text-center">Napoleon Hill</div>
   </div>
@@ -27,12 +27,12 @@
                 }
               </div>
               <div class="opinion mb-4">
-                <span>{{ testimonial.header }}</span>
-                <div>{{ testimonial.opinion }}</div>
+                <span>{{ (testimonial.translationKey + '.title') | translate}}</span>
+                <div>{{ (testimonial.translationKey + '.content') | translate}}</div>
               </div>
               <div class="person">
                 <span>{{ testimonial.name }}</span>
-                <div>{{ testimonial.company }}</div>
+                <div>{{ (testimonial.translationKey + '.company') | translate}}</div>
               </div>
             </div>
           </ng-template>
@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="flex justify-content-center">
-    <j-button [size]="'large'" [label]="'Skontaktuj się z nami'" [icon]="'pi-arrow-circle-right'"
+    <j-button [size]="'large'" [label]="'testimonials.cta' | translate" [icon]="'pi-arrow-circle-right'"
               [iconPosition]="'right'" (clicked)="goToSection()"></j-button>
   </div>
 </section>
