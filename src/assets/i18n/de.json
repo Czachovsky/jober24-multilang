@@ -187,6 +187,17 @@
     "privacy": "Datenschutzrichtlinie",
     "rights": "2025 © Jober24 | Alle Rechte vorbehalten"
   },
+  "locations": {
+    "title": "Unsere Standorte",
+    "countries1": ["Moldawien", "Ukraine", "Nepal", "Malaysia", "Indien", "Portugal", "Ungarn"],
+    "countries2": ["Vietnam", "Kasachstan", "Kirgisistan", "Philippinen", "Dubai", "Kolumbien"],
+    "statistics": {
+      "yearsSuffix" : " Jahre",
+      "yearsExperience": "Erfahrung",
+      "candidatesDatabase": "Kandidaten in der Datenbank",
+      "recruitmentPartners": "Rekrutierungspartner"
+    }
+  },
   "messages": {
     "success": "Nachricht gesendet",
     "error": "Ein Fehler ist aufgetreten"

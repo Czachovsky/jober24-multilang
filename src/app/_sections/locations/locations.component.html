@@ -1,6 +1,6 @@
 <section class="py-120">
   <div class="container" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
-    <h2 class="mb-6">Nasze lokalizacje</h2>
+    <h2 class="mb-6">{{'locations.title' | translate}}</h2>
     <div class="relative locations_graph mb-7" [style.height.px]="divHeight">
       @if (isMobile) {
         <div class="mobile-map">
@@ -98,7 +98,7 @@
 
       <div class="locations_wrapper flex p-4 lg:absolute">
         <div class="lg:w-auto w-6">
-          @for (location of locations_1; let i = $index; track i; let last = $last) {
+          @for (location of countries1$ | async; let i = $index; track i; let last = $last) {
             <div class="flex align-items-center" [ngClass]="{'mb-3' : !last}">
               <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -109,7 +109,7 @@
           }
         </div>
         <div class="ml-4 lg:w-auto w-6">
-          @for (location of locations_2; let i = $index; track i; let last = $last) {
+          @for (location of countries2$ | async; let i = $index; track i; let last = $last) {
             <div class="flex align-items-center" [ngClass]="{'mb-3' : !last}">
               <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -123,13 +123,13 @@
     </div>
     <div class="counters flex alig-items-center justify-content-between">
      <div>
-       <j-counter [value]="9" [suffix]="' lat'" [label]="'doświadczenia'"></j-counter>
+       <j-counter [value]="9" [suffix]=" ('locations.statistics.yearsSuffix' | translate)" [label]="'locations.statistics.yearsExperience' | translate"></j-counter>
      </div>
       <div>
-        <j-counter [value]="70000" [suffix]="'+'" [label]="'kandydatów w bazie'"></j-counter>
+        <j-counter [value]="70000" [suffix]="'+'" [label]="'locations.statistics.candidatesDatabase' | translate"></j-counter>
       </div>
       <div>
-        <j-counter [value]="100" [suffix]="'+'" [label]="'partnerów rekrutacyjnych'"></j-counter>
+        <j-counter [value]="100" [suffix]="'+'" [label]="'locations.statistics.recruitmentPartners' | translate"></j-counter>
       </div>
     </div>
   </div>

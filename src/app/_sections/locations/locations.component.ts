@@ -1,23 +1,25 @@
 import {Component, inject} from '@angular/core';
-import {NgClass} from "@angular/common";
+import {AsyncPipe, NgClass} from "@angular/common";
 import {ScreenService} from "../../services/screen.service";
-import {SanitizePipe} from "../../pipes/sanitize.pipe";
 import {CounterComponent} from "../../components/counter/counter.component";
+import {TranslateModule, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'jober24-locations',
   standalone: true,
   imports: [
     NgClass,
-    SanitizePipe,
-    CounterComponent
+    CounterComponent,
+    TranslateModule,
+    AsyncPipe
   ],
   templateUrl: './locations.component.html',
   styleUrl: './locations.component.scss'
 })
 export class LocationsComponent {
-  public readonly locations_1: string[] = ['Mołdawia', 'Ukraina', 'Nepal', 'Malezja', 'Indie', 'Portugalia', 'Węgry'];
-  public readonly locations_2: string[] = ['Wietnam', 'Kazachstan', 'Kirgistan', 'Filipiny', 'Dubaj', 'Kolumbia'];
+  private translateService: TranslateService = inject(TranslateService);
+  countries1$ = this.translateService.stream('locations.countries1');
+  countries2$ = this.translateService.stream('locations.countries1');
   public readonly screen: ScreenService = inject(ScreenService);
   public isMobile: boolean = this.screen.getInitialWidth().width <= 992;
 
