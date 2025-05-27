@@ -6,9 +6,15 @@ import {provideAnimations} from "@angular/platform-browser/animations";
 import {HttpClient, provideHttpClient, withInterceptorsFromDi} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {LanguageDetectionService} from "./services/language-detection.service";
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
+export function getInitialLanguage(): string {
+    const languageService = new LanguageDetectionService();
+    return languageService.getPreferredLanguage();
 }
 
 export const appConfig: ApplicationConfig = {
@@ -24,7 +30,7 @@ export const appConfig: ApplicationConfig = {
                     useFactory: HttpLoaderFactory,
                     deps: [HttpClient]
                 },
-                defaultLanguage: 'en'
+                defaultLanguage: getInitialLanguage()
             })
         )
     ]

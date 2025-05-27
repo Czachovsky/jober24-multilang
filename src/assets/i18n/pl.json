@@ -1,0 +1,417 @@
+{
+  "nav": {
+    "about": "O nas",
+    "history": "Historia",
+    "services": "Nasze usługi",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Rekrutujemy i Budujemy Zespoły",
+    "title": "Podejmujemy się wyzwań, w których inni odpuścili.",
+    "description": "Nie szukamy tylko kandydatów – <b>tworzymy zespoły</b>, które napędzają sukces Twojej firmy. Dzięki <b>zaawansowanej technologii i precyzyjnej selekcji</b> dostarczamy <b>najlepszych specjalistów</b> z branż e-commerce, automotive i produkcji.",
+    "features": {
+      "fast": "Działamy szybko, skutecznie i bez kompromisów.",
+      "global": "Globalny zasięg – docieramy do najlepszych specjalistów w każdej strefie czasowej"
+    },
+    "stats": {
+      "database": "Ludzi w<br/>bazie",
+      "satisfaction": "Zadowolonych<br/>klientów",
+      "growth": "Wzrost możliwości<br/>rozwoju biznesu"
+    },
+    "cta": "Poznaj historię naszego sukcesu"
+  },
+  "features": {
+    "automotive": "Automotive",
+    "ecommerce": "e-commerce",
+    "industry": "Przemysł",
+    "title": "Ludzie to fundament sukcesu – Twój partner w budowaniu efektywnych zespołów",
+    "description": "W branżach e-commerce, automotive i produkcyjnej sukces zależy od dobrze dobranych zespołów. Nasza agencja specjalizuje się w dostarczaniu kompleksowych rozwiązań rekrutacyjnych, które pozwalają firmom tworzyć skuteczne, zgrane i wydajne zespoły. Dzięki nam zatrudnienie odpowiednich specjalistów i integracja nowych pracowników przebiega sprawnie i efektywnie."
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "subtitle": "Wykorzystujemy najnowocześniejsze technologie, takie jak sztuczna inteligencja i zaawansowana analityka danych, by",
+    "team_building": {
+      "title": "Budowa zespołów poprzez leasing pracowników",
+      "description": "Zapewniamy elastyczne wsparcie kadrowe, umożliwiając firmom szybkie dostosowanie liczby pracowników do ich potrzeb. Nasi eksperci pomagają w tworzeniu zgranych zespołów gotowych do realizacji Twoich celów biznesowych. Przejmujemy formalności, abyś mógł skupić się na strategii rozwoju."
+    },
+    "recruitment": {
+      "title": "Rekrutacja i selekcja najlepszych talentów",
+      "description": "Wykorzystujemy nowoczesne metody selekcji, aby znaleźć i dopasować do Twojej firmy specjalistów i liderów, którzy wzmocnią Twój zespół. Skutecznie rekrutujemy zarówno na stanowiska operacyjne, jak i kierownicze, zapewniając długoterminowe korzyści organizacyjne. Oferujemy szeroką gamę rekrutacji, wspieraną przez nasze biura partnerskie w krajach takich jak Mołdawia, Ukraina, Kazachstan, Filipiny, Indie, Nepal i Zjednoczone Emiraty Arabskie."
+    },
+    "outsourcing": {
+      "title": "Outsourcing procesów i zarządzanie zespołami",
+      "description": "Przejmujemy odpowiedzialność za budowę i zarządzanie kluczowymi procesami w Twojej firmie. Nasze rozwiązania obejmują zarządzanie logistyką, kontrolę jakości, operacje magazynowe i inne kluczowe funkcje operacyjne. Skupiamy się na efektywności i spójności działania zespołów."
+    },
+    "legalization": {
+      "title": "Legalizacja zatrudnienia cudzoziemców",
+      "description": "Dla firm zatrudniających większe grupy cudzoziemców zapewniamy dynamiczne i skuteczne wsparcie w legalizacji zatrudnienia. Dzięki naszemu doświadczeniu w rekrutacji transgranicznej usprawniamy cały proces, eliminując niepotrzebne formalności i przyspieszając procedury. Nasz zespół ekspertów pracuje szybko i efektywnie, zapewniając kompleksową obsługę prawną, co pozwala pracodawcom skupić się na rozwoju biznesu, a pracownikom na bezpiecznym i legalnym zatrudnieniu."
+    }
+  },
+  "timeline": {
+    "2016": {
+      "title": "Wejście na rynek Automotive",
+      "description": "Jober24 rozpoczyna działalność, zdobywając pierwszy duży kontrakt na 160 pracowników w branży motoryzacyjnej. To moment, który wyznacza kierunek dalszego rozwoju i ekspansji."
+    },
+    "2017": {
+      "title": "Ekspansja na Wschód",
+      "description": "Otwarcie biura w Kijowie pozwala na zwiększenie efektywności rekrutacji i dostępu do ukraińskiego rynku pracy."
+    },
+    "2018": {
+      "title": "Globalizacja i wejście na rynki azjatyckie",
+      "description": "Jober24 rozszerza działalność na Azję, rekrutując pracowników z Nepalu, Indii, Filipin, Wietnamu i Malezji. Przekroczenie symbolicznej granicy 1000 zatrudnionych osób potwierdza rosnącą pozycję firmy."
+    },
+    "2019": {
+      "title": "Wejście na rynek Bliskiego Wschodu",
+      "description": "Powstaje spółka Jober24 w Zjednoczonych Emiratach Arabskich, umożliwiająca skuteczniejszą rekrutację i współpracę z lokalnymi partnerami biznesowymi."
+    },
+    "2020": {
+      "title": "Siedziba główna w Szwajcarii i wejście w e-commerce",
+      "description": "Jober24 przenosi centrum dowodzenia do Szwajcarii, przygotowując strategię ekspansji w Europie Środkowej. Pomimo globalnej pandemii COVID-19 firma utrzymuje pozycję wchodząc w branżę e-commerce."
+    },
+    "2021": {
+      "title": "Pierwsze kontrakty IT w bankowości szwajcarskiej",
+      "description": "Jober24 zdobywa pierwsze strategiczne kontrakty na dostarczanie specjalistów IT dla banków w Szwajcarii, umacniając swoją pozycję w sektorze finansowym."
+    },
+    "2022": {
+      "title": "Wejście w sektor opieki medycznej",
+      "description": "Rozszerzenie działalności o branżę opieki zdrowotnej pozwala na dalszą dywersyfikację usług i dostarczanie personelu medycznego."
+    },
+    "2023": {
+      "title": "Dalsza ekspansja i konsolidacja rynkowa",
+      "description": "Dalsza ekspansja i konsolidacja rynkowa"
+    },
+    "2024": {
+      "title": "Jober24 AI: Automatyzacja i skalowanie",
+      "description": "Firma wdraża zaawansowane rozwiązania AI, które pozwalają na szybsze i bardziej efektywne skalowanie działalności. Nowe produkty oparte na sztucznej inteligencji stają się fundamentem dalszego rozwoju."
+    },
+    "2025": {
+      "title": "Transformacja cyfrowa i rozwój technologiczny",
+      "description": "Jober24 buduje własny portal AI oraz zaawansowane narzędzia rekrutacyjne wykorzystujące najnowsze technologie informatyczne. Dział IT staje się kluczowym filarem firmy, umożliwiając dalszą automatyzację i globalną ekspansję. Równocześnie Jober24 poszukuje partnerów – producentów robotów humanoidalnych, aby wzmocnić swoją pozycję w sektorze outsourcingu."
+    }
+  },
+  "whyUs": {
+    "title": "Dlaczego warto nam zaufać?",
+    "specialization": {
+      "title": "Specjalizacja w budowie zespołów",
+      "description": "Znamy specyfikę sektora e-commerce, automotive i produkcji, co pozwala nam tworzyć zespoły dopasowane do wyzwań branży."
+    },
+    "speed": {
+      "title": "Szybka reakcja na potrzeby rynkowe",
+      "description": "W krótkim czasie dostarczamy odpowiednich ludzi, minimalizując przestoje i zapewniając ciągłość operacyjną."
+    },
+    "integration": {
+      "title": "Efektywna integracja pracowników",
+      "description": "Pomagamy w szybkim wdrożeniu nowych pracowników, co zwiększa produktywność i stabilność zespołów."
+    },
+    "costs": {
+      "title": "Optymalizacja kosztów",
+      "description": "Nasze usługi pozwalają na elastyczne zarządzanie budżetem kadrowym, zapewniając najwyższą jakość zatrudnienia."
+    },
+    "tools": {
+      "title": "Nowoczesne narzędzia rekrutacyjne",
+      "description": "Wykorzystujemy zaawansowane systemy analizy kompetencji, by znaleźć najlepszych kandydatów i dopasować ich do potrzeb Twojej firmy."
+    },
+    "bottomText": {
+      "title": "Nie zostawiaj budowy zespołu <br class=\"lg:hidden inline-block\"> przypadkowi.",
+      "description": "Skontaktuj się z nami i stwórz silny, <br class=\"lg:hidden inline-block\"> wydajny i dobrze <br class=\"lg:inline-block hidden\"> funkcjonujący <br class=\"lg:hidden inline-block\"> zespół już dziś!",
+      "cta": "Skontaktuj się z nami"
+    }
+  },
+  "benefits": {
+    "title": "Twoja Branża,<br> Nasza Ekspertyza",
+    "subtitle": "Nasze działania obejmują wiele branż, dostosowując się do specyficznych wymagań i oczekiwań naszych klientów.",
+    "automotive": {
+      "title": "Automotive",
+      "description": "Produkcja dla branży motoryzacyjnej."
+    },
+    "ecommerce": {
+      "title": "e-commerce",
+      "description": "Logistyka, magazyny"
+    },
+    "production": {
+      "title": "Produkcja",
+      "description": "Przemysł spożywczy i drobiarski."
+    },
+    "technical": {
+      "title": "Technika i Przemysł",
+      "description": "Specjaliści ds. spawalnictwa przemysłowego, monterzy instalacji technicznych, elektrycy przemysłowi."
+    },
+    "engineering": {
+      "title": "Inżynieria i zaawansowana produkcja",
+      "description": "Lotnictwo, CNC."
+    }
+  },
+  "testimonials": {
+    "title": "Historia sukcesów naszych klientów",
+    "subtitle": "\"Nie wygrywa ten, kto ma wielkie plany, lecz ten, kto je realizuje do końca.\"",
+    "story1": {
+      "title": "110 osób w 10 dni – ratunek dla firmy na start sezonu letniego",
+      "content": "Zbliżał się sezon letni, a firma usługowa mierzyła się z problemem braków kadrowych – urlopy stałych pracowników i nieskuteczność innych agencji sprawiły, że nie było możliwości obsługi wszystkich klientów. Potrzebna była natychmiastowa reakcja, ale konkurencyjne agencje dostarczały tylko pojedynczych kandydatów. Dzięki Jober24 w 10 dni udało się zbudować pełny 110-osobowy zespół.",
+      "company": "Zakłady drobiarskie"
+    },
+    "story2": {
+      "title": "18 inżynierów lotnictwa w 14 dni – ekspresowa rekrutacja dla lidera branży",
+      "content": "Globalny producent komponentów lotniczych stanął przed nagłym wyzwaniem – pilnie potrzebował 18 wysoko wykwalifikowanych inżynierów, aby nadążyć za rosnącym zapotrzebowaniem i dotrzymać terminów kluczowych kontraktów. Dzięki Jober24 i naszej 24/7 globalnej sieci rekrutacyjnej, w zaledwie 14 dni dostarczyliśmy kompletny zespół inżynierów ze specjalizacją w aerodynamice, awionice i kompozytach.",
+      "company": "AIRBUS"
+    },
+    "story3": {
+      "title": "50 osób w 7 dni – ekspresowa rekrutacja dla e-commerce w szczycie sprzedaży",
+      "content": "Dynamicznie rozwijający się sklep e-commerce stanął przed wyzwaniem nagłego wzrostu zamówień w sezonie sprzedażowym. Brak dodatkowych rąk do pracy groził opóźnieniami w realizacji zamówień i spadkiem zadowolenia klientów. Dzięki Jober24 i naszej błyskawicznej rekrutacji 24/7, w 7 dni dostarczyliśmy 50 wykwalifikowanych pracowników magazynowych i logistycznych, gotowych do natychmiastowego działania.",
+      "company": "Logistic"
+    },
+    "cta": "Skontaktuj się z nami"
+  },
+  "contact": {
+    "title": "Zacznijmy rozmowę",
+    "subtitle": "Chcesz sprawnie znaleźć najlepszych kandydatów? Wypełnij formularz, a nasz zespół skontaktuje się z Tobą w ciągu 24 godzin!",
+    "form": {
+      "employeesCount": "Ilość poszukiwanych pracowników",
+      "fullName": "Imię i nazwisko",
+      "fullNamePlaceholder": "Wprowadź imię i nazwisko",
+      "email": "Email",
+      "emailPlaceholder": "Wprowadź email",
+      "nip": "NIP",
+      "nipPlaceholder": "Wprowadź NIP",
+      "company": "Firma",
+      "companyPlaceholder": "Wprowadź nazwę firmy",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Wprowadź wiadomość",
+      "submit": "Wyślij zapytanie"
+    }
+  },
+  "footer": {
+    "brandName": "JOBER24 SWISS GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "address": "Wspólna 70, 00-687 Warszawa, Polska",
+    "email": "kontakt@jober24.pl",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności",
+    "rights": "2025 © Jober24 | All Rights Reserved"
+  },
+  "locations": {
+    "title": "Nasze lokalizacje",
+    "countries1": ["Mołdawia", "Ukraina", "Nepal", "Malezja", "Indie", "Portugalia", "Węgry"],
+    "countries2": ["Wietnam", "Kazachstan", "Kirgistan", "Filipiny", "Dubaj", "Kolumbia"],
+    "statistics": {
+      "yearsSuffix" : " lat",
+      "yearsExperience": "doświadczenia",
+      "candidatesDatabase": "kandydatów w bazie",
+      "recruitmentPartners": "partnerów rekrutacyjnych"
+    }
+  },
+  "messages": {
+    "success": "Wiadomość wysłana",
+    "error": "Wystąpił błąd"
+  },
+  "privacyPolicy": {
+    "title": "Polityka Prywatności",
+    "introduction": {
+      "heading": "Wprowadzenie",
+      "content1": "Jober24 Group GmbH (\"Jober24\") zobowiązuje się do ochrony prywatności i poufności danych osobowych wszystkich naszych klientów, kandydatów do pracy i innych osób trzecich.",
+      "content2": "Niniejsza Polityka Prywatności i Ochrony Danych wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy, przetwarzamy i chronimy dane osobowe zgodnie z ustawą o ochronie danych osobowych (FADP), ogólnym rozporządzeniem o ochronie danych (RODO) i innymi obowiązującymi przepisami prawnymi.",
+      "content3": "Wszelkie pytania i wnioski dotyczące danych osobowych można kierować do naszego Inspektora Ochrony Danych, wysyłając wiadomość e-mail na adres: admin@jober24.ch lub telefonicznie: +41 0 41 5 111 999, lub pocztą na adres: Jober24 Group GmbH Neuhofstrasse 12, 6340 Baar."
+    },
+    "dataCollection": {
+      "heading": "Jakie dane osobowe gromadzimy?",
+      "candidateData": {
+        "title": "DANE KANDYDATÓW:",
+        "content": "Aby zapewnić najlepsze możliwości zatrudnienia dostosowane do Ciebie, musimy przetwarzać określone informacje o Tobie. Pytamy tylko o szczegóły, które naszym zdaniem naprawdę pomogą nam Ci pomóc, takie jak Twoje imię, wiek, dane kontaktowe, wykształcenie, historia zatrudnienia, kontakty awaryjne, status imigracyjny, informacje finansowe (jeśli musimy przeprowadzić kontrolę finansową), numer ubezpieczenia społecznego (możesz również zdecydować się na udostępnienie nam innych istotnych informacji). W razie potrzeby i zgodnie z lokalnymi przepisami i wymaganiami, zbieramy również informacje o Twoim zdrowiu, informacje o różnorodności lub szczegóły dotyczące ewentualnych wyroków skazujących."
+      },
+      "clientData": {
+        "title": "DANE KLIENTÓW:",
+        "content": "Jeśli jesteś klientem Jober24, musimy zbierać i wykorzystywać informacje o Tobie lub o osobach w Twojej organizacji w trakcie świadczenia usług związanych z wyszukiwaniem kandydatów odpowiednich dla Ciebie lub Twojej organizacji."
+      },
+      "websiteUsers": {
+        "title": "UŻYTKOWNICY STRONY INTERNETOWEJ:",
+        "content": "Zbieramy ograniczone dane od użytkowników naszej strony internetowej, które wykorzystujemy do poprawy Twojego doświadczenia podczas korzystania z naszej strony internetowej lub aplikacji mobilnych oraz do pomocy w zarządzaniu usługami, które świadczymy. Obejmuje to informacje takie jak sposób korzystania ze strony internetowej, częstotliwość dostępu do strony i godziny, w których nasza strona jest najpopularniejsza."
+      },
+      "additionalInfo": "Jeśli chcesz dowiedzieć się więcej o danych, które gromadzimy o Tobie podczas odwiedzania naszej strony internetowej, kliknij tutaj."
+    },
+    "dataUsage": {
+      "heading": "Jak wykorzystujemy dane osobowe",
+      "intro": "Dane osobowe będą przez nas gromadzone i przetwarzane w następujących celach:",
+      "purposes": [
+        "Aby jak najlepiej dostosować treści i usługi do Twoich preferencji.",
+        "Aby informować Cię drogą mailową, telefoniczną i/lub pocztową o naszych usługach.",
+        "Aby świadczyć inne usługi - takie jak newslettery lub informacje o nadchodzących wydarzeniach - które możemy Ci oferować.",
+        "Aby pomóc nam tworzyć, publikować i ulepszać treści i usługi najbardziej istotne dla Ciebie.",
+        "Aby zapewnić, że treści i usługi oferowane przez stronę internetową są prezentowane w sposób najbardziej efektywny dla Ciebie i Twojego urządzenia.",
+        "Aby umożliwić Ci uczestnictwo w funkcjach interaktywnych, gdy zdecydujesz się to zrobić.",
+        "Aby dalej rozwijać i ulepszać stronę internetową, treści oraz nasze usługi i systemy."
+      ]
+    },
+    "dataSharing": {
+      "heading": "Udostępnianie danych stronom trzecim",
+      "content1": "Będziemy udostępniać Twoje dane osobowe innym podmiotom w naszej grupie w ramach naszych regularnych działań sprawozdawczych dotyczących wyników firmy, w kontekście reorganizacji biznesowej lub restrukturyzacji grupy, wsparcia w utrzymaniu systemu i hostingu danych. Podmioty grupowe są zobowiązane do podjęcia odpowiednich środków bezpieczeństwa w celu ochrony Twoich danych osobowych zgodnie z naszymi politykami.",
+      "content2": "Korzystamy z usług niektórych zewnętrznych dostawców (tak zwanych \"procesorów\"), którzy przetwarzają dane dla nas na podstawie ścisłych instrukcji i wiążącej umowy. Nasi procesorzy świadczą następujące usługi:",
+      "services": [
+        "Usługi IT",
+        "Przechowywanie danych w chmurze",
+        "Konsultacje w zakresie ochrony danych",
+        "Doradztwo prawne",
+        "Usługi księgowe"
+      ],
+      "content3": "Procesorzy są zobowiązani do podjęcia odpowiednich środków bezpieczeństwa w celu ochrony Twoich danych osobowych zgodnie z naszymi politykami. Nie pozwalamy naszym procesorom wykorzystywać Twoich danych osobowych do własnych celów. Upoważniamy ich do przetwarzania Twoich danych osobowych tylko w określonych celach i zgodnie z naszymi instrukcjami."
+    },
+    "dataTransfer": {
+      "heading": "Transfer danych do innych krajów lub organizacji międzynarodowych",
+      "content": "Przekazujemy Twoje dane osobowe podmiotom w naszej grupie w UE i możemy również przekazywać te dane poza UE. Jeśli tak się stanie, możesz oczekiwać podobnego poziomu ochrony danych osobowych jak w Wielkiej Brytanii i UE."
+    },
+    "dataStorage": {
+      "heading": "Gdzie przechowujemy i przetwarzamy Twoje dane osobowe",
+      "content1": "Przechowujemy Twoje informacje w naszej elektronicznej bazie danych, która jest przechowywana na naszych lokalnych serwerach. Uzyskujemy dostęp do naszych serwerów codziennie w ramach codziennych operacji biznesowych z bezpiecznej platformy, która jest chroniona hasłem i ma ścisłe ograniczenia dostępu.",
+      "content2": "Wszystkie informacje, które nam przekazujesz, są przechowywane na naszych bezpiecznych serwerach. Niestety, transmisja informacji przez Internet nie jest całkowicie bezpieczna. Chociaż dokładamy wszelkich starań, aby chronić Twoje dane osobowe, nie możemy zagwarantować bezpieczeństwa Twoich danych przesyłanych na naszą stronę; każda transmisja odbywa się na Twoje własne ryzyko. Po otrzymaniu Twoich danych stosujemy ścisłe procedury i funkcje bezpieczeństwa, aby zapobiec nieautoryzowanemu dostępowi.",
+      "content3": "Jako firma świadoma ekologicznie, staramy się ograniczać ilość drukowanych materiałów, szczególnie tych zawierających dane osobowe. W przypadku posiadania jakichkolwiek wydrukowanych danych osobowych, np. CV, nasza polityka firmowa wymaga, aby dokumenty nie były pozostawiane na biurkach i były zamykane każdego wieczoru. Niszczymy wszystkie poufne dokumenty codziennie i tygodniowo."
+    },
+    "cookies": {
+      "heading": "Wykorzystanie plików cookie",
+      "content1": "Plik cookie to mały plik danych, który jest wysyłany z serwera internetowego do przeglądarki, gdy odwiedza ona stronę serwera. Dowiedz się więcej o używaniu plików cookie na <a href=\"http://www.allaboutcookies.org/\">www.allaboutcookies.org</a>. Pliki cookie są używane na stronie jober24.ch do zapamiętywania Twojego logowania, śledzenia ruchu sieciowego na podstawie zagregowanych danych, więc żadne osoby nie są identyfikowane, zapamiętywania informacji o sesji, takich jak Twoje ostatnie wyszukiwanie (te informacje są usuwane za każdym razem, gdy zamykasz przeglądarkę). Większość przeglądarek pozwala na wyłączenie plików cookie. Jeśli chcesz się dowiedzieć, jak to zrobić, sprawdź menu pomocy w swojej przeglądarce. Jednak wyłączenie plików cookie ograniczy korzystanie z naszej strony internetowej.",
+      "policyHeading": "Polityka Prywatności Plików Cookie",
+      "policyContent1": "Ta strona używa plików cookie. Pliki cookie to pliki tekstowe, które zawierają dane z odwiedzonych stron internetowych lub domen i są przechowywane przez przeglądarkę na komputerze użytkownika. Plik cookie jest głównie używany do przechowywania informacji o użytkowniku podczas lub po jego wizycie w ofercie online. Przechowywane informacje mogą obejmować na przykład ustawienia języka na stronie internetowej, status logowania, koszyk zakupów lub miejsce, w którym oglądano film. Termin \"pliki cookie\" obejmuje również inne technologie, które pełnią te same funkcje co pliki cookie (np. gdy informacje o użytkowniku są przechowywane przy użyciu pseudonimowych identyfikatorów online, zwanych również \"identyfikatorami użytkownika\").",
+      "cookieTypes": {
+        "heading": "Rozróżnia się następujące rodzaje plików cookie i funkcji:",
+        "items": [
+          "<strong>Tymczasowe pliki cookie (również: sesyjne lub session cookies)<br></strong>Tymczasowe pliki cookie są usuwane najpóźniej po tym, jak użytkownik opuści ofertę online i zamknie przeglądarkę.",
+          "<strong>Trwałe pliki cookie<br></strong>Trwałe pliki cookie pozostają zapisane nawet po zamknięciu przeglądarki. Na przykład można zapisać status logowania lub preferowane treści mogą być wyświetlane bezpośrednio, gdy użytkownik ponownie odwiedzi stronę internetową. Zainteresowania użytkowników, które są używane do pomiaru zasięgu lub celów marketingowych, mogą również być przechowywane w takim pliku cookie.",
+          "<strong>Pliki cookie pierwszej strony<br></strong>Pliki cookie pierwszej strony są ustawiane przez nas.",
+          "<strong>Pliki cookie stron trzecich (również: third-party cookies)<br></strong>Pliki cookie stron trzecich są głównie używane przez reklamodawców (tak zwane strony trzecie) do przetwarzania informacji o użytkownikach.",
+          "<strong>Niezbędne pliki cookie (również: istotne lub ściśle niezbędne)<br></strong>Pliki cookie mogą być absolutnie niezbędne do funkcjonowania strony internetowej (np. do zapisywania logowań lub innych danych wprowadzanych przez użytkownika lub ze względów bezpieczeństwa).",
+          "<strong>Statystyczne, marketingowe i personalizacyjne pliki cookie<br></strong>Pliki cookie są również ogólnie używane do pomiaru zasięgu, gdy zainteresowania lub zachowanie użytkowników (np. oglądanie określonych treści, korzystanie z funkcji itp.) są zapisywane w profilu użytkownika na poszczególnych stronach internetowych. Takie profile są używane na przykład do pokazywania użytkownikom treści, które odpowiadają ich potencjalnym zainteresowaniom. Ten proces jest również nazywany \"śledzeniem\", tj. śledzeniem potencjalnych zainteresowań użytkowników. Jeśli używamy plików cookie lub technologii \"śledzenia\", poinformujemy Cię oddzielnie w naszej deklaracji ochrony danych lub przy uzyskiwaniu zgody."
+        ]
+      },
+      "legalBasis": "Uwagi dotyczące podstawy prawnej: Podstawa prawna, na której przetwarzamy Twoje dane osobowe przy użyciu plików cookie, zależy od tego, czy prosimy o Twoją zgodę. Jeśli tak i wyrażasz zgodę na używanie plików cookie, podstawą prawną przetwarzania Twoich danych jest wyrażona zgoda. W przeciwnym razie dane przetwarzane przy użyciu plików cookie będą przetwarzane na podstawie naszych uprawnionih interesów (np. do komercyjnego działania naszej oferty online i jej poprawy) lub jeśli używanie plików cookie jest niezbędne do wypełnienia naszych zobowiązań umownych.",
+      "retention": "Okres przechowywania: Jeśli nie dostarczamy Ci wyraźnych informacji o okresie przechowywania trwałych plików cookie (np. w ramach tak zwanej zgody na pliki cookie), załóż, że okres przechowywania może wynosić do dwóch lat.",
+      "optOut": "Ogólne informacje o wycofaniu zgody i sprzeciwie (opt-out): W zależności od tego, czy przetwarzanie opiera się na zgodzie czy autoryzacji prawnej, masz możliwość wycofania zgody lub sprzeciwu wobec przetwarzania Twoich danych przy użyciu technologii cookie w dowolnym momencie (łącznie określane jako \"opt-out\"). Możesz najpierw wyrazić sprzeciw za pomocą ustawień przeglądarki, na przykład wyłączając używanie plików cookie (co może również ograniczyć funkcjonalność naszej oferty online). Sprzeciw wobec używania plików cookie do celów marketingu online można również zgłosić za pomocą różnych usług, szczególnie w przypadku śledzenia, za pośrednictwem stron https://optout.aboutads.info i https://www.youronlinechoices.com/.",
+      "consentManagement": "Przetwarzanie danych cookie na podstawie zgody: Używamy procesu zarządzania zgodą na pliki cookie, gdzie użytkownicy wyrażają zgodę na używanie plików cookie lub się im sprzeciwiają. Możesz wycofać swoją zgodę w dowolnym momencie lub zmienić ustawienia plików cookie w dowolnym momencie na naszej stronie (link do ustawień zarządzania plikami cookie).",
+      "analyticalTools": {
+        "heading": "Korzystanie z innych narzędzi analitycznych i marketingowych",
+        "content": "Również w ramach tego procesu używamy platform analitycznych i marketingowych, aby jeszcze precyzyjniej dostosować treści i usługi na stronie internetowej do Twoich potrzeb. Z tego powodu, dla wygody użytkownika, podjęliśmy następujące środki ochrony prywatności:",
+        "tools": [
+          "Analiza i reklama za pomocą Google Analytics i Google Ads",
+          "Marketing i reklama (np. za pomocą Adform, Clickdimension)",
+          "Niektóre elementy platformy Google i innych usług (np. przy wyświetlaniu reklam)"
+        ]
+      }
+    },
+    "sslEncryption": {
+      "heading": "Polityka prywatności dla szyfrowania SSL/TLS",
+      "content1": "Ta strona internetowa używa szyfrowania SSL/TLS, aby zapewnić bezpieczeństwo i ochronę transmisji poufnych danych, takich jak zapytania, które wysyłasz do nas jako operator strony. Możesz rozpoznać zaszyfrowane połączenie po tym, że adres w pasku przeglądarki zmienia się z \"http://\" na \"https://\" i pojawia się symbol kłódki w pasku przeglądarki.",
+      "content2": "Jeśli szyfrowanie SSL lub TLS jest aktywne, dane, które do nas przesyłasz, nie mogą być odczytane przez osoby trzecie."
+    },
+    "googleAnalytics": {
+      "heading": "Polityka prywatności dla Google Analytics",
+      "content1": "Ta strona internetowa używa Google Analytics, usługi analityki internetowej świadczonej przez Google Ireland Limited. Jeśli osoba odpowiedzialna za przetwarzanie danych na tej stronie znajduje się poza Europejskim Obszarem Gospodarczym lub Szwajcarią, przetwarzanie danych Google Analytics jest wykonywane przez Google LLC. Google LLC i Google Ireland Limited są dalej określane jako \"Google\".",
+      "content2": "Używamy uzyskanych statystyk do poprawy naszej oferty i uczynienia jej bardziej interesującą dla użytkowników. Ta strona internetowa używa również Google Analytics do analizy wizyt na różnych urządzeniach, co odbywa się za pomocą identyfikatora użytkownika. Jeśli masz konto Google, możesz dezaktywować analizę międzyurządzeniową w ustawieniach, w sekcji \"Moje dane\", \"Dane osobowe\".",
+      "content3": "Podstawą prawną używania Google Analytics jest Artykuł 6 ustęp 1 punkt 1 lit. f RODO. Adres IP przesyłany przez Twoją przeglądarkę w ramach Google Analytics nie jest łączony z innymi danymi Google. Chcielibyśmy zwrócić uwagę, że na tej stronie Google Analytics zostało rozszerzone o kod \"_anonymizeIp();\", aby zapewnić anonimowe zbieranie adresów IP. Oznacza to, że adresy IP są dalej przetwarzane w skróconej formie, co uniemożliwia powiązanie ich z osobą. Jeśli zebrane o Tobie dane będą miały charakter osobowy, zostaną natychmiast wyłączone, a dane osobowe natychmiast usunięte.",
+      "content4": "Tylko w wyjątkowych przypadkach pełny adres IP zostanie przesłany na serwer Google w USA i tam skrócony. W imieniu operatora tej strony Google będzie używać tych informacji do oceny korzystania ze strony, kompilowania raportów o aktywności strony i świadczenia innych usług związanych z aktywnością strony i korzystaniem z Internetu dla operatora strony.",
+      "content5": "Google Analytics używa plików cookie. Informacje generowane przez plik cookie o Twoim korzystaniu z tej strony internetowej są zwykle przesyłane na serwer Google w USA i tam przechowywane. Możesz zapobiec przechowywaniu plików cookie, odpowiednio ustawiając oprogramowanie przeglądarki; chcielibyśmy jednak zwrócić uwagę, że w tym przypadku możesz nie być w stanie w pełni korzystać ze wszystkich funkcji tej strony. Możesz również zapobiec zbieraniu przez Google Analytics danych generowanych przez plik cookie i związanych z Twoim korzystaniem z tej strony (w tym Twoim adresem IP) oraz ich przetwarzaniu przez Google, pobierając dostępną wtyczkę przeglądarki pod następującym linkiem i instalując ją: Dezaktywacja Google Analytics.",
+      "content6": "Możesz również zapobiec korzystaniu z Google Analytics, klikając ten link: Dezaktywuj Google Analytics. Spowoduje to zapisanie pliku cookie opt-out na Twoim nośniku danych, który zapobiega przetwarzaniu danych osobowych przez Google Analytics. Należy pamiętać, że jeśli usuniesz wszystkie pliki cookie na swoim urządzeniu, pliki cookie opt-out również zostaną usunięte, więc będziesz musiał ponownie ustawić opt-out, jeśli nadal chcesz zapobiec zbieraniu danych w ten sposób. Pliki cookie opt-out są ustawiane dla każdej przeglądarki i komputera/urządzenia i dlatego muszą być aktywowane oddzielnie dla każdej przeglądarki, komputera lub innego urządzenia."
+    },
+    "googleWebFonts": {
+      "heading": "Oświadczenie o ochronie danych dotyczące korzystania z Google Web Fonts",
+      "content1": "Ta strona używa tak zwanych Google Web Fonts, które są dostarczane przez Google, w celu jednolitego wyświetlania czcionek. Gdy odwiedzasz stronę, Twoja przeglądarka ładuje wymagane czcionki internetowe do swojej pamięci podręcznej, aby prawidłowo wyświetlać teksty i czcionki. Jeśli Twoja przeglądarka nie obsługuje czcionek internetowych, Twój komputer użyje standardowej czcionki.",
+      "content2": "Więcej informacji o Google Web Fonts można znaleźć na https://developers.google.com/fonts/faq i w polityce prywatności Google: https://www.google.com/policies/privacy/"
+    },
+    "googleTagManager": {
+      "heading": "Google Tag Manager",
+      "content": "Google Tag Manager to rozwiązanie, które pozwala nam zarządzać tak zwanymi tagami strony internetowej za pomocą interfejsu i na przykład integrować Google Analytics i inne usługi marketingowe Google z naszą ofertą online. Sam menedżer tagów, który implementuje tagi, nie przetwarza żadnych danych osobowych użytkowników. W odniesieniu do przetwarzania danych osobowych użytkowników należy odwołać się do następujących informacji o usługach Google. Warunki użytkowania: https://www.google.com/intl/de/tagmanager/use-policy.html"
+    },
+    "audioVideoConferences": {
+      "heading": "Konferencje audio i wideo",
+      "content1": "Używamy usług konferencji audio i wideo do komunikacji z naszymi użytkownikami i innymi. W szczególności możemy ich używać do prowadzenia konferencji audio i wideo, wirtualnych spotkań i szkoleń, takich jak webinaria.",
+      "content2": "Używamy tylko usług, które zapewniają odpowiednią ochronę danych. Oprócz tej polityki prywatności obowiązują również warunki usług używanych usług, takie jak regulaminy lub polityki prywatności.",
+      "content3": "W szczególności używamy Zoom, usługi amerykańskiej firmy Zoom Video Communications Inc. Zoom zapewnia również prawa wynikające z europejskiego ogólnego rozporządzenia o ochronie danych (RODO) dla użytkowników w Szwajcarii. Więcej informacji o rodzaju, zakresie i celu przetwarzania danych można znaleźć w wytycznych ochrony danych Zoom pod tym linkiem: Polityki ochrony danych Zoom i na stronie \"Przepisy prawne i ochrona danych\""
+    },
+    "legalBasis": {
+      "heading": "Podstawa prawna przetwarzania",
+      "content": "Art. 6 ust. 1 lit. a RODO stanowi podstawę prawną dla operacji przetwarzania, w przypadku których uzyskujemy zgodę na przetwarzanie w określonym celu. Jeśli przetwarzanie danych osobowych jest niezbędne do wykonania umowy, której stroną jest osoba, której dane dotyczą, jak ma to miejsce na przykład w przypadku operacji przetwarzania niezbędnych do dostawy towarów lub świadczenia innych usług lub świadczeń, przetwarzanie opiera się na art. 6 ust. 1 lit. b RODO. To samo dotyczy operacji przetwarzania niezbędnych do podjęcia kroków przed zawarciem umowy, na przykład w przypadku zapytań o nasze produkty lub usługi. Jeśli nasza firma jest zobowiązana do przetwarzania danych osobowych z powodu obowiązku prawnego, na przykład w celu wypełnienia obowiązków podatkowych, przetwarzanie opiera się na art. 6 ust. 1 lit. c RODO. W rzadkich przypadkach przetwarzanie danych osobowych może być niezbędne do ochrony żywotnych interesów osoby, której dane dotyczą, lub innej osoby fizycznej. Takie sytuacje mogą wystąpić na przykład, jeśli w naszej firmie dojdzie do wypadku i lekarz, szpital lub inny podmiot będzie musiał otrzymać niezbędne dane, takie jak imię, wiek, dane ubezpieczenia zdrowotnego lub inne dane niezbędne do życia. Wtedy przetwarzanie opierałoby się na art. 6 ust. 1 lit. d RODO. Wreszcie, operacje przetwarzania mogą opierać się na art. 6 ust. 1 lit. f RODO. Operacje przetwarzania, które nie są objęte żadną z powyższych podstaw prawnych, opierają się na tej podstawie prawnej, jeśli przetwarzanie jest niezbędne do ochrony uprawnionego interesu naszej firmy lub strony trzeciej, pod warunkiem że interesy, podstawowe prawa i wolności osoby, której dane dotyczą, nie przeważają. Przetwarzanie jest szczególnie dozwolone, ponieważ zostało wyraźnie wskazane przez europejskiego prawodawcę. W tym względzie uznano, że uprawniony interes może istnieć, jeśli osoba, której dane dotyczą, jest klientem administratora danych (motyw 47 ust. 2 RODO)."
+    },
+    "legitimateInterests": {
+      "heading": "Uprawnione interesy w przetwarzaniu realizowane przez administratora lub stronę trzecią",
+      "content": "Jeśli przetwarzanie danych osobowych opiera się na art. 6 ust. 1 lit. f RODO, naszym uprawnionym interesem jest prowadzenie działalności gospodarczej na rzecz dobrobytu wszystkich naszych pracowników i udziałowców."
+    },
+    "retentionPeriod": {
+      "heading": "Okres przechowywania danych osobowych",
+      "content": "Kryterium przechowywania danych osobowych to odpowiedni okres przechowywania wymagany przez prawo. Po upływie tego okresu odpowiednie dane będą rutynowo usuwane, chyba że są nadal potrzebne do wypełnienia umowy lub podjęcia działań w celu zawarcia umowy."
+    },
+    "dataSubjectRights": {
+      "heading": "Prawa dostępu, sprostowania, usunięcia i ograniczenia",
+      "content1": "Ważne jest, aby dane osobowe, które o Tobie posiadamy, były dokładne i aktualne. Prosimy o poinformowanie nas o wszelkich zmianach w Twoich danych osobowych podczas procesu rekrutacji.",
+      "content2": "W określonych okolicznościach masz prawo do:",
+      "rights": [
+        "Żądania dostępu do swoich danych osobowych (tak zwane \"żądanie dostępu do danych\"). Pozwala to na otrzymanie kopii danych osobowych, które o Tobie posiadamy, i sprawdzenie, czy przetwarzamy je zgodnie z prawem.",
+        "Żądania sprostowania danych osobowych, które o Tobie posiadamy. Pozwala to na poprawienie niekompletnych lub niedokładnych danych, które posiadamy.",
+        "Żądania usunięcia danych osobowych. Pozwala to na żądanie usunięcia danych osobowych, gdy nie mamy dobrego powodu, aby je dalej przetwarzać. Masz również prawo do żądania usunięcia danych osobowych, jeśli skorzystasz z prawa do sprzeciwu wobec przetwarzania (patrz poniżej).",
+        "Sprzeciwu wobec przetwarzania danych osobowych, jeśli przetwarzamy je na podstawie uprawnionego interesu (lub interesów strony trzeciej) i coś w Twojej szczególnej sytuacji sprawia, że chcesz sprzeciwić się przetwarzaniu danych na tej podstawie. Masz również prawo do sprzeciwu wobec przetwarzania danych osobowych do celów marketingu bezpośredniego.",
+        "Żądania ograniczenia przetwarzania danych osobowych. Pozwala to na zawieszenie przetwarzania danych osobowych o Tobie, na przykład jeśli chcesz sprawdzić ich dokładność lub powód przetwarzania.",
+        "Żądania przeniesienia swoich danych osobowych do innej strony."
+      ],
+      "contact": "Jeśli chcesz przejrzeć, zweryfikować, poprawić lub zażądać usunięcia swoich danych osobowych, sprzeciwić się przetwarzaniu swoich danych osobowych lub zażądać, abyśmy przenieśli kopię Twoich danych osobowych do innej strony, skontaktuj się z nami pod adresem admin@jober24.ch",
+      "identity": "Możemy poprosić Cię o podanie określonych informacji w celu potwierdzenia Twojej tożsamości i zapewnienia prawa dostępu do danych (lub skorzystania z innych praw). Jest to dodatkowy środek bezpieczeństwa, który zapewnia, że dane osobowe nie są ujawniane osobie, która nie ma do nich prawa."
+    },
+    "complaints": {
+      "heading": "Skargi",
+      "content1": "Jeśli masz jakiekolwiek obawy lub skargi dotyczące ochrony danych osobowych, powinieneś najpierw zgłosić je do nas poprzez e-mail: <a href=\"mailto:admin@jober24.ch\">admin@jober24.ch</a> lub pocztą: Jober24 Group GmbH, Neuhofstrasse 12, 6340 Baar.",
+      "content2": "Jeśli masz skargę lub obawy, które nie zostały rozwiązane wewnętrznie, możesz zgłosić je do organu nadzorczego ds. ochrony danych osobowych. Odwiedź www.ico.org, aby uzyskać więcej informacji."
+    },
+    "changes": {
+      "heading": "Zmiany w tej Polityce Prywatności",
+      "content": "Wszelkie zmiany, które wprowadzamy w przyszłości do naszej Polityki Prywatności, będą publikowane na tej stronie."
+    }
+  },
+  "termsConditions": {
+    "title": "Regulamin",
+    "subtitle": "Korzystając z tej strony internetowej, potwierdzasz, że przeczytałeś i zgadzasz się z następującymi warunkami.",
+    "privacyStatement": {
+      "heading": "Oświadczenie o prywatności",
+      "content": "Zobowiązujemy się do ochrony Twojej prywatności. Upoważnieni pracownicy firmy używają wszystkich informacji zebranych od poszczególnych klientów tylko w zakresie niezbędnym do wykonywania swoich obowiązków. Stale przeglądamy nasze systemy i dane, aby zapewnić najlepszą możliwą obsługę naszych klientów. Parlament wprowadził określone przestępstwa dotyczące nieautoryzowanych działań przeciwko systemom komputerowym i danym. Będziemy badać wszelkie takie działania w celu ścigania i/lub podjęcia działań cywilnych w celu odzyskania odszkodowań od osób odpowiedzialnych."
+    },
+    "confidentiality": {
+      "heading": "Poufność",
+      "content1": "Dane kandydatów są traktowane jako poufne i dlatego nie będą ujawniane żadnej stronie trzeciej, chyba że jest to wymagane przez prawo. Kandydaci mają prawo do wglądu i kopiowania wszelkich danych kandydatów, które prowadzimy, pod warunkiem że zostaniemy powiadomieni z rozsądnym wyprzedzeniem o takim żądaniu. Kandydaci są proszeni o zachowanie kopii wszelkich materiałów dostarczonych w związku z naszymi usługami. W stosownych przypadkach zapewnimy kandydatom odpowiednie pisemne informacje, broszury lub kopie danych w ramach uzgodnionej umowy, z korzyścią dla obu stron.",
+      "content2": "Nie będziemy sprzedawać, udostępniać ani wynajmować Twoich danych osobowych stronom trzecim ani używać Twojego adresu e-mail do niechcianych wysyłek. Wszelkie e-maile wysyłane przez Jober24 będą dotyczyć wyłącznie świadczenia uzgodnionych usług i produktów."
+    },
+    "employers": {
+      "heading": "Pracodawcy",
+      "intro": "Jober24 nie składa żadnych oświadczeń ani gwarancji dotyczących:",
+      "items": [
+        "istnienia lub dostępności jakiejkolwiek oferty pracy reklamowanej na stronie Jober24;",
+        "tego, czy jakikolwiek pracodawca poprosi o Twoje CV, zaprosi Cię na rozmowę kwalifikacyjną lub Cię zatrudni;",
+        "tego, czy jakikolwiek pracodawca będzie zachowywać poufność Twoich danych osobowych lub informacji przekazanych temu pracodawcy lub kandydatowi;",
+        "ostatecznych warunków i czasu trwania jakiejkolwiek oferty pracy uzyskanej za pośrednictwem strony Jober24."
+      ]
+    },
+    "exclusionsLimitations": {
+      "heading": "Wyłączenia i ograniczenia",
+      "intro": "Informacje na tej stronie internetowej są dostarczane \"tak jak są\". W najszerszym zakresie dozwolonym przez prawo, Jober24:",
+      "items": [
+        "wyklucza wszystkie oświadczenia i gwarancje dotyczące tej strony internetowej i jej zawartości lub które mogą być dostarczone przez podmioty stowarzyszone lub inne strony trzecie, w tym dotyczące wszelkich nieścisłości lub pominięć na tej stronie internetowej i/lub literaturze Jober24;",
+        "wyklucza wszelką odpowiedzialność za szkody wynikające z lub związane z korzystaniem z tej strony internetowej. Obejmuje to, bez ograniczeń, bezpośrednie straty, utratę biznesu lub zysków (niezależnie od tego, czy utrata takich zysków była przewidywalna, wystąpiła w normalnym toku biznesu, czy powiadomiłeś Jober24 o możliwości takiej straty), uszkodzenie Twojego komputera, oprogramowania komputerowego, systemów i programów oraz danych na nich, lub wszelkie inne bezpośrednie, pośrednie, konsekwencyjne i przypadkowe szkody."
+      ],
+      "disclaimer": "Jednak Jober24 nie wyklucza odpowiedzialności za śmierć lub obrażenia ciała spowodowane przez jego zaniedbanie. Powyższe wyłączenia i ograniczenia mają zastosowanie tylko w zakresie dozwolonym przez prawo. Żadne z Twoich ustawowych praw jako konsumenta nie są naruszone."
+    },
+    "logFiles": {
+      "heading": "Pliki dziennika",
+      "content": "Używamy adresów IP do analizy trendów, administrowania stroną, śledzenia ruchu użytkowników i zbierania szerokich informacji demograficznych do wykorzystania zagregowanego. Adresy IP nie są powiązane z informacjami umożliwiającymi identyfikację osoby. Dodatkowo, do celów administracyjnych, wykrywania wzorców użytkowania i rozwiązywania problemów, nasze serwery internetowe automatycznie rejestrują standardowe informacje o dostępie, w tym typ przeglądarki, czasy dostępu/otwarcia, żądany adres URL i adres URL odsyłający. Te informacje nie są udostępniane stronom trzecim i są używane wyłącznie w ramach Jober24 na zasadzie \"potrzeby wiedzy\". Wszelkie dane umożliwiające identyfikację nie będą używane w żaden inny sposób niż opisany powyżej bez Twojej wyraźnej zgody."
+    },
+    "cookies": {
+      "heading": "Pliki cookie",
+      "content": "Podobnie jak większość interaktywnych stron internetowych, nasza strona [lub dostawca usług internetowych] używa plików cookie, aby umożliwić nam pobieranie danych użytkownika przy każdej wizycie. Pliki cookie są używane w niektórych obszarach naszej strony, aby umożliwić funkcjonalność tych obszarów i ułatwić korzystanie z nich przez odwiedzających. Niektórzy z naszych partnerów afiliacyjnych mogą również używać plików cookie."
+    },
+    "links": {
+      "heading": "Linki z tej strony internetowej",
+      "content": "Nie monitorujemy ani nie przeglądamy zawartości stron internetowych innych stron, które są linkowane z tej strony internetowej. Opinie wyrażane lub materiały pojawiające się na takich stronach internetowych niekoniecznie są przez nas podzielane lub popierane i nie powinny być uważane za nasze stanowisko. Należy pamiętać, że nie jesteśmy odpowiedzialni za praktyki prywatności lub zawartość tych stron. Zachęcamy naszych użytkowników do zachowania czujności, gdy opuszczają naszą stronę i do przeczytania oświadczeń o prywatności tych stron. Powinieneś sam ocenić bezpieczeństwo i wiarygodność każdej innej strony połączonej z tą stroną lub dostępnej za pośrednictwem tej strony, przed ujawnieniem jakichkolwiek danych osobowych. Jober24 nie ponosi odpowiedzialności za jakiekolwiek straty lub szkody w jakikolwiek sposób spowodowane ujawnieniem stronom trzecim danych osobowych."
+    },
+    "copyright": {
+      "heading": "Informacja o prawach autorskich",
+      "content": "Prawa autorskie i inne odpowiednie prawa własności intelektualnej istnieją na całym tekście dotyczącym usług Jober24 i pełnej zawartości tej strony internetowej."
+    },
+    "general": {
+      "heading": "Postanowienia ogólne",
+      "content": "Jeśli jakiekolwiek postanowienie tych warunków zostanie uznane za nieważne lub niewykonalne z jakiegokolwiek powodu (w tym, ale nie ograniczając się do wyłączeń i ograniczeń określonych powyżej), wówczas nieważne lub niewykonalne postanowienie zostanie oddzielone od tych warunków, a pozostałe warunki będą nadal obowiązywać. Brak egzekwowania przez Jober24 któregokolwiek z postanowień określonych w niniejszym Regulaminie i jakiejkolwiek Umowie, lub brak działania w związku z naruszeniem, nie będzie interpretowane jako zrzeczenie się takich postanowień i nie wpłynie na ważność niniejszego Regulaminu lub jakiejkolwiek Umowy lub jej części, ani na prawo do egzekwowania każdego takiego postanowienia. Niniejszy Regulamin nie może być zmieniany, modyfikowany lub uzupełniany bez pisemnej zgody podpisanej przez należycie upoważnionych przedstawicieli firmy."
+    },
+    "changesNotice": {
+      "heading": "Powiadomienie o zmianach",
+      "content": "Zastrzegamy sobie prawo do zmiany tych warunków od czasu do czasu według naszego uznania, a Twoje dalsze korzystanie ze strony będzie oznaczać akceptację wszelkich dostosowań tych warunków. Jeśli nastąpią jakiekolwiek zmiany w naszej polityce prywatności, ogłosimy to na naszej stronie głównej i innych kluczowych stronach naszej witryny. Jeśli nastąpią jakiekolwiek zmiany w sposobie wykorzystywania danych osobowych użytkowników naszej witryny, powiadomienie e-mailem lub pocztą tradycyjną zostanie wysłane do osób dotkniętych tą zmianą. Wszelkie zmiany w naszej polityce prywatności zostaną opublikowane na naszej stronie internetowej na 30 dni przed wejściem w życie tych zmian. Dlatego zaleca się regularne ponowne czytanie tego oświadczenia."
+    }
+  }
+}
