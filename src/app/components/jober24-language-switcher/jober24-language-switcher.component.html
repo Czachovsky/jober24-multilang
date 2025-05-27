@@ -1,0 +1,21 @@
+<div class="jober24-language-switcher ml-4">
+    <div class="current-language" (click)="toggleDropdown()">
+        <span class="lang-code">{{ getCurrentLanguage().code.toUpperCase() }}</span>
+        <i class="pi pi-chevron-down" [class.rotated]="isDropdownOpen"></i>
+    </div>
+
+    <div class="dropdown" [class.open]="isDropdownOpen">
+        @for (language of languages; track language.code) {
+            <div
+                    class="dropdown-item"
+                    [class.active]="currentLang === language.code"
+                    (click)="selectLanguage(language.code)">
+                <span class="lang-name">{{ language.name }}</span>
+            </div>
+        }
+    </div>
+
+    @if (isDropdownOpen) {
+        <div class="backdrop" (click)="closeDropdown()"></div>
+    }
+</div>

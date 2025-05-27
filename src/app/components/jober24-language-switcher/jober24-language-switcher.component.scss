@@ -1,0 +1,153 @@
+@use '../../../assets/layout/scss/mixins';
+
+:host {
+  display: block;
+}
+
+.jober24-language-switcher {
+  position: relative;
+  z-index: 100;
+}
+
+.current-language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--black-300);
+  border-radius: 6px;
+  background: var(--background-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 65px;
+
+  &:hover {
+    border-color: var(--red-500);
+    box-shadow: 0 2px 8px rgba(240, 75, 74, 0.15);
+  }
+
+  &.language-changed {
+    transform: scale(1.05);
+    border-color: var(--red-500);
+    box-shadow: 0 0 0 3px rgba(240, 75, 74, 0.2);
+  }
+
+  .flag {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .lang-code {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+
+  .pi-chevron-down {
+    font-size: 12px;
+    color: var(--black-500);
+    transition: transform 0.3s ease;
+    margin-left: auto;
+
+    &.rotated {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--background-color);
+  border: 1px solid var(--black-200);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  min-width: 85px;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid var(--black-100);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: var(--black-50);
+  }
+
+  &.active {
+    background: var(--red-500);
+    color: var(--text-white);
+
+    .lang-name {
+      color: var(--text-white);
+      font-weight: 600;
+    }
+  }
+
+  .flag {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .lang-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+    white-space: nowrap;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: transparent;
+}
+
+/* Mobile responsive */
+@include mixins.lower-than('lg') {
+  .current-language {
+    padding: 10px 14px;
+    min-width: 85px;
+  }
+
+  .dropdown-item {
+    padding: 14px 16px;
+
+    .flag {
+      font-size: 20px;
+    }
+
+    .lang-name {
+      font-size: 15px;
+    }
+  }
+
+  .dropdown {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+}
