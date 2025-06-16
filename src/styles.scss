@@ -9,3 +9,11 @@
   90% { opacity: 1; }
   100% { opacity: 0;  }
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+a[routerLink] {
+  cursor: pointer;
+}

@@ -28,7 +28,6 @@ export class TimelineComponent {
     nav: true,
     autoplay: true,
     autoplayTimeout: 7000,
-    autoplayHoverPause: true,
     navText: ['<i class="pi pi-chevron-left"></i>', '<i class="pi pi-chevron-right"></i>']
   }
   public readonly screen: ScreenService = inject(ScreenService);

@@ -6,6 +6,9 @@
     align-items: center;
     position: absolute;
     bottom: 45px;
+    @include mixins.lower-than('lg') {
+      bottom: 30px;
+    }
 
     & > div {
       width: 40px;
@@ -103,9 +106,11 @@ section {
       color: var(--text-white);
       height: 355px;
       @include mixins.lower-than('lg') {
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
+        margin-bottom: 90px !important;
       }
     }
 

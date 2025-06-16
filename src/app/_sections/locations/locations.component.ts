@@ -19,7 +19,7 @@ import {TranslateModule, TranslateService} from "@ngx-translate/core";
 export class LocationsComponent {
   private translateService: TranslateService = inject(TranslateService);
   countries1$ = this.translateService.stream('locations.countries1');
-  countries2$ = this.translateService.stream('locations.countries1');
+  countries2$ = this.translateService.stream('locations.countries2');
   public readonly screen: ScreenService = inject(ScreenService);
   public isMobile: boolean = this.screen.getInitialWidth().width <= 992;
 

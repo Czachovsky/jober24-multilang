@@ -22,7 +22,9 @@ export class AppComponent implements OnInit {
     constructor() {
         this.router.events.subscribe(event => {
             if (event instanceof NavigationEnd) {
-                window.scrollTo({top: 0, behavior: 'smooth'});
+                setTimeout(() => {
+                    window.scrollTo(0, 0);
+                }, 100);
             }
         });
     }
